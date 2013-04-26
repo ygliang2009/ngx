@@ -1,0 +1,267 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CLOCK_REALTIME	ngx_eventport_module.c	19;"	d	file:
+DP_ISPOLLED	ngx_devpoll_module.c	19;"	d	file:
+DP_POLL	ngx_devpoll_module.c	18;"	d	file:
+EPOLLERR	ngx_epoll_module.c	25;"	d	file:
+EPOLLET	ngx_epoll_module.c	28;"	d	file:
+EPOLLHUP	ngx_epoll_module.c	26;"	d	file:
+EPOLLIN	ngx_epoll_module.c	17;"	d	file:
+EPOLLMSG	ngx_epoll_module.c	24;"	d	file:
+EPOLLONESHOT	ngx_epoll_module.c	29;"	d	file:
+EPOLLOUT	ngx_epoll_module.c	19;"	d	file:
+EPOLLPRI	ngx_epoll_module.c	18;"	d	file:
+EPOLLRDBAND	ngx_epoll_module.c	21;"	d	file:
+EPOLLRDNORM	ngx_epoll_module.c	20;"	d	file:
+EPOLLWRBAND	ngx_epoll_module.c	23;"	d	file:
+EPOLLWRNORM	ngx_epoll_module.c	22;"	d	file:
+EPOLL_CTL_ADD	ngx_epoll_module.c	31;"	d	file:
+EPOLL_CTL_DEL	ngx_epoll_module.c	32;"	d	file:
+EPOLL_CTL_MOD	ngx_epoll_module.c	33;"	d	file:
+ETIME	ngx_eventport_module.c	34;"	d	file:
+F_SETSIG	ngx_rtsig_module.c	31;"	d	file:
+KERN_RTSIGMAX	ngx_rtsig_module.c	33;"	d	file:
+KERN_RTSIGNR	ngx_rtsig_module.c	32;"	d	file:
+POLLREMOVE	ngx_devpoll_module.c	17;"	d	file:
+PORT_SOURCE_AIO	ngx_eventport_module.c	26;"	d	file:
+PORT_SOURCE_ALERT	ngx_eventport_module.c	30;"	d	file:
+PORT_SOURCE_FD	ngx_eventport_module.c	29;"	d	file:
+PORT_SOURCE_MQ	ngx_eventport_module.c	31;"	d	file:
+PORT_SOURCE_TIMER	ngx_eventport_module.c	27;"	d	file:
+PORT_SOURCE_USER	ngx_eventport_module.c	28;"	d	file:
+SIGEV_PORT	ngx_eventport_module.c	37;"	d	file:
+SIGRTMIN	ngx_rtsig_module.c	17;"	d	file:
+SIGRTMIN	ngx_rtsig_module.c	25;"	d	file:
+SYS_eventfd	ngx_epoll_module.c	76;"	d	file:
+SYS_io_destroy	ngx_epoll_module.c	74;"	d	file:
+SYS_io_getevents	ngx_epoll_module.c	75;"	d	file:
+SYS_io_setup	ngx_epoll_module.c	73;"	d	file:
+aio_context_t	ngx_epoll_module.c	/^typedef u_int  aio_context_t;$/;"	t	file:
+aio_name	ngx_aio_module.c	/^static ngx_str_t      aio_name = ngx_string("aio");$/;"	v	file:
+aio_requests	ngx_epoll_module.c	/^    ngx_uint_t  aio_requests;$/;"	m	struct:__anon1	file:
+change_index	ngx_devpoll_module.c	/^static ngx_event_t    **change_index;$/;"	v	file:
+change_list	ngx_devpoll_module.c	/^static struct pollfd   *change_list, *event_list;$/;"	v	typeref:struct:pollfd	file:
+change_list	ngx_kqueue_module.c	/^static struct kevent  *change_list, *change_list0, *change_list1;$/;"	v	typeref:struct:kevent	file:
+change_list0	ngx_kqueue_module.c	/^static struct kevent  *change_list, *change_list0, *change_list1;$/;"	v	typeref:struct:	file:
+change_list1	ngx_kqueue_module.c	/^static struct kevent  *change_list, *change_list0, *change_list1;$/;"	v	typeref:struct:	file:
+changes	ngx_devpoll_module.c	/^    ngx_uint_t      changes;$/;"	m	struct:__anon6	file:
+changes	ngx_kqueue_module.c	/^    ngx_uint_t  changes;$/;"	m	struct:__anon4	file:
+clockid_t	ngx_eventport_module.c	/^typedef int     clockid_t;$/;"	t	file:
+data	ngx_epoll_module.c	/^    epoll_data_t  data;$/;"	m	struct:epoll_event	file:
+data	ngx_epoll_module.c	/^    uint64_t  data;  \/* the data field from the iocb *\/$/;"	m	struct:io_event	file:
+devpoll_name	ngx_devpoll_module.c	/^static ngx_str_t      devpoll_name = ngx_string("\/dev\/poll");$/;"	v	file:
+dp	ngx_devpoll_module.c	/^static int              dp = -1;$/;"	v	file:
+dp_fds	ngx_devpoll_module.c	/^    struct pollfd  *dp_fds;$/;"	m	struct:dvpoll	typeref:struct:dvpoll::pollfd	file:
+dp_nfds	ngx_devpoll_module.c	/^    int             dp_nfds;$/;"	m	struct:dvpoll	file:
+dp_timeout	ngx_devpoll_module.c	/^    int             dp_timeout;$/;"	m	struct:dvpoll	file:
+dvpoll	ngx_devpoll_module.c	/^struct dvpoll {$/;"	s	file:
+ep	ngx_epoll_module.c	/^static int                  ep = -1;$/;"	v	file:
+ep	ngx_eventport_module.c	/^static int            ep = -1;$/;"	v	file:
+epoll_create	ngx_epoll_module.c	/^int epoll_create(int size)$/;"	f
+epoll_ctl	ngx_epoll_module.c	/^int epoll_ctl(int epfd, int op, int fd, struct epoll_event *event)$/;"	f
+epoll_data	ngx_epoll_module.c	/^typedef union epoll_data {$/;"	u	file:
+epoll_data_t	ngx_epoll_module.c	/^} epoll_data_t;$/;"	t	typeref:union:epoll_data	file:
+epoll_event	ngx_epoll_module.c	/^struct epoll_event {$/;"	s	file:
+epoll_name	ngx_epoll_module.c	/^static ngx_str_t      epoll_name = ngx_string("epoll");$/;"	v	file:
+epoll_wait	ngx_epoll_module.c	/^int epoll_wait(int epfd, struct epoll_event *events, int nevents, int timeout)$/;"	f
+event_index	ngx_select_module.c	/^static ngx_event_t  **event_index;$/;"	v	file:
+event_index	ngx_win32_select_module.c	/^static ngx_event_t  **event_index;$/;"	v	file:
+event_list	ngx_devpoll_module.c	/^static struct pollfd   *change_list, *event_list;$/;"	v	typeref:struct:	file:
+event_list	ngx_epoll_module.c	/^static struct epoll_event  *event_list;$/;"	v	typeref:struct:epoll_event	file:
+event_list	ngx_eventport_module.c	/^static port_event_t  *event_list;$/;"	v	file:
+event_list	ngx_kqueue_module.c	/^static struct kevent  *event_list;$/;"	v	typeref:struct:kevent	file:
+event_list	ngx_poll_module.c	/^static struct pollfd  *event_list;$/;"	v	typeref:struct:pollfd	file:
+event_timer	ngx_eventport_module.c	/^static timer_t        event_timer = (timer_t) -1;$/;"	v	file:
+eventport_name	ngx_eventport_module.c	/^static ngx_str_t      eventport_name = ngx_string("eventport");$/;"	v	file:
+events	ngx_devpoll_module.c	/^    ngx_uint_t      events;$/;"	m	struct:__anon6	file:
+events	ngx_epoll_module.c	/^    ngx_uint_t  events;$/;"	m	struct:__anon1	file:
+events	ngx_epoll_module.c	/^    uint32_t      events;$/;"	m	struct:epoll_event	file:
+events	ngx_eventport_module.c	/^    ngx_uint_t  events;$/;"	m	struct:__anon3	file:
+events	ngx_kqueue_module.c	/^    ngx_uint_t  events;$/;"	m	struct:__anon4	file:
+fd	ngx_epoll_module.c	/^    int           fd;$/;"	m	union:epoll_data	file:
+io_destroy	ngx_epoll_module.c	/^io_destroy(aio_context_t ctx)$/;"	f	file:
+io_event	ngx_epoll_module.c	/^struct io_event {$/;"	s	file:
+io_getevents	ngx_epoll_module.c	/^io_getevents(aio_context_t ctx, long min_nr, long nr, struct io_event *events,$/;"	f	file:
+io_setup	ngx_epoll_module.c	/^io_setup(u_int nr_reqs, aio_context_t *ctx)$/;"	f	file:
+it_interval	ngx_eventport_module.c	/^    struct timespec it_interval;\/* timer period *\/$/;"	m	struct:itimerspec	typeref:struct:itimerspec::timespec	file:
+it_value	ngx_eventport_module.c	/^    struct timespec it_value;   \/* timer expiration *\/$/;"	m	struct:itimerspec	typeref:struct:itimerspec::timespec	file:
+itimerspec	ngx_eventport_module.c	/^typedef struct itimerspec {     \/* definition per POSIX.4 *\/$/;"	s	file:
+itimerspec_t	ngx_eventport_module.c	/^} itimerspec_t;$/;"	t	typeref:struct:itimerspec	file:
+kevent_mutex	ngx_kqueue_module.c	/^static ngx_mutex_t    *kevent_mutex;$/;"	v	file:
+kqueue_name	ngx_kqueue_module.c	/^static ngx_str_t      kqueue_name = ngx_string("kqueue");$/;"	v	file:
+list_mutex	ngx_kqueue_module.c	/^static ngx_mutex_t    *list_mutex;$/;"	v	file:
+master_read_fd_set	ngx_select_module.c	/^static fd_set         master_read_fd_set;$/;"	v	file:
+master_read_fd_set	ngx_win32_select_module.c	/^static fd_set         master_read_fd_set;$/;"	v	file:
+master_write_fd_set	ngx_select_module.c	/^static fd_set         master_write_fd_set;$/;"	v	file:
+master_write_fd_set	ngx_win32_select_module.c	/^static fd_set         master_write_fd_set;$/;"	v	file:
+max_changes	ngx_devpoll_module.c	/^static ngx_uint_t       nchanges, max_changes, nevents;$/;"	v	file:
+max_changes	ngx_kqueue_module.c	/^static ngx_uint_t      max_changes, nchanges, nevents;$/;"	v	file:
+max_fd	ngx_select_module.c	/^static ngx_int_t      max_fd;$/;"	v	file:
+max_read	ngx_win32_select_module.c	/^static ngx_uint_t     max_read;$/;"	v	file:
+max_write	ngx_win32_select_module.c	/^static ngx_uint_t     max_write;$/;"	v	file:
+nchanges	ngx_devpoll_module.c	/^static ngx_uint_t       nchanges, max_changes, nevents;$/;"	v	file:
+nchanges	ngx_kqueue_module.c	/^static ngx_uint_t      max_changes, nchanges, nevents;$/;"	v	file:
+nevents	ngx_devpoll_module.c	/^static ngx_uint_t       nchanges, max_changes, nevents;$/;"	v	file:
+nevents	ngx_epoll_module.c	/^static ngx_uint_t           nevents;$/;"	v	file:
+nevents	ngx_eventport_module.c	/^static ngx_uint_t     nevents;$/;"	v	file:
+nevents	ngx_kqueue_module.c	/^static ngx_uint_t      max_changes, nchanges, nevents;$/;"	v	file:
+nevents	ngx_poll_module.c	/^static ngx_int_t       nevents;$/;"	v	file:
+nevents	ngx_select_module.c	/^static ngx_uint_t     nevents;$/;"	v	file:
+nevents	ngx_win32_select_module.c	/^static ngx_uint_t     nevents;$/;"	v	file:
+ngx_aio_add_event	ngx_aio_module.c	/^ngx_aio_add_event(ngx_event_t *ev, ngx_int_t event, ngx_uint_t flags)$/;"	f	file:
+ngx_aio_ctx	ngx_epoll_module.c	/^aio_context_t               ngx_aio_ctx = 0;$/;"	v
+ngx_aio_del_connection	ngx_aio_module.c	/^ngx_aio_del_connection(ngx_connection_t *c, ngx_uint_t flags)$/;"	f	file:
+ngx_aio_del_event	ngx_aio_module.c	/^ngx_aio_del_event(ngx_event_t *ev, ngx_int_t event, ngx_uint_t flags)$/;"	f	file:
+ngx_aio_done	ngx_aio_module.c	/^ngx_aio_done(ngx_cycle_t *cycle)$/;"	f	file:
+ngx_aio_init	ngx_aio_module.c	/^ngx_aio_init(ngx_cycle_t *cycle, ngx_msec_t timer)$/;"	f	file:
+ngx_aio_module	ngx_aio_module.c	/^ngx_module_t  ngx_aio_module = {$/;"	v
+ngx_aio_module_ctx	ngx_aio_module.c	/^ngx_event_module_t  ngx_aio_module_ctx = {$/;"	v
+ngx_aio_process_events	ngx_aio_module.c	/^ngx_aio_process_events(ngx_cycle_t *cycle, ngx_msec_t timer, ngx_uint_t flags)$/;"	f	file:
+ngx_check_ngx_overflow_threshold_bounds	ngx_rtsig_module.c	/^ngx_check_ngx_overflow_threshold_bounds(ngx_conf_t *cf, void *post, void *data)$/;"	f	file:
+ngx_devpoll_add_event	ngx_devpoll_module.c	/^ngx_devpoll_add_event(ngx_event_t *ev, ngx_int_t event, ngx_uint_t flags)$/;"	f	file:
+ngx_devpoll_commands	ngx_devpoll_module.c	/^static ngx_command_t  ngx_devpoll_commands[] = {$/;"	v	file:
+ngx_devpoll_conf_t	ngx_devpoll_module.c	/^} ngx_devpoll_conf_t;$/;"	t	typeref:struct:__anon6	file:
+ngx_devpoll_create_conf	ngx_devpoll_module.c	/^ngx_devpoll_create_conf(ngx_cycle_t *cycle)$/;"	f	file:
+ngx_devpoll_del_event	ngx_devpoll_module.c	/^ngx_devpoll_del_event(ngx_event_t *ev, ngx_int_t event, ngx_uint_t flags)$/;"	f	file:
+ngx_devpoll_done	ngx_devpoll_module.c	/^ngx_devpoll_done(ngx_cycle_t *cycle)$/;"	f	file:
+ngx_devpoll_init	ngx_devpoll_module.c	/^ngx_devpoll_init(ngx_cycle_t *cycle, ngx_msec_t timer)$/;"	f	file:
+ngx_devpoll_init_conf	ngx_devpoll_module.c	/^ngx_devpoll_init_conf(ngx_cycle_t *cycle, void *conf)$/;"	f	file:
+ngx_devpoll_module	ngx_devpoll_module.c	/^ngx_module_t  ngx_devpoll_module = {$/;"	v
+ngx_devpoll_module_ctx	ngx_devpoll_module.c	/^ngx_event_module_t  ngx_devpoll_module_ctx = {$/;"	v
+ngx_devpoll_process_events	ngx_devpoll_module.c	/^ngx_devpoll_process_events(ngx_cycle_t *cycle, ngx_msec_t timer,$/;"	f
+ngx_devpoll_set_event	ngx_devpoll_module.c	/^ngx_devpoll_set_event(ngx_event_t *ev, ngx_int_t event, ngx_uint_t flags)$/;"	f	file:
+ngx_epoll_add_connection	ngx_epoll_module.c	/^ngx_epoll_add_connection(ngx_connection_t *c)$/;"	f	file:
+ngx_epoll_add_event	ngx_epoll_module.c	/^ngx_epoll_add_event(ngx_event_t *ev, ngx_int_t event, ngx_uint_t flags)$/;"	f	file:
+ngx_epoll_aio_init	ngx_epoll_module.c	/^ngx_epoll_aio_init(ngx_cycle_t *cycle, ngx_epoll_conf_t *epcf)$/;"	f	file:
+ngx_epoll_commands	ngx_epoll_module.c	/^static ngx_command_t  ngx_epoll_commands[] = {$/;"	v	file:
+ngx_epoll_conf_t	ngx_epoll_module.c	/^} ngx_epoll_conf_t;$/;"	t	typeref:struct:__anon1	file:
+ngx_epoll_create_conf	ngx_epoll_module.c	/^ngx_epoll_create_conf(ngx_cycle_t *cycle)$/;"	f	file:
+ngx_epoll_del_connection	ngx_epoll_module.c	/^ngx_epoll_del_connection(ngx_connection_t *c, ngx_uint_t flags)$/;"	f	file:
+ngx_epoll_del_event	ngx_epoll_module.c	/^ngx_epoll_del_event(ngx_event_t *ev, ngx_int_t event, ngx_uint_t flags)$/;"	f	file:
+ngx_epoll_done	ngx_epoll_module.c	/^ngx_epoll_done(ngx_cycle_t *cycle)$/;"	f	file:
+ngx_epoll_eventfd_handler	ngx_epoll_module.c	/^ngx_epoll_eventfd_handler(ngx_event_t *ev)$/;"	f	file:
+ngx_epoll_init	ngx_epoll_module.c	/^ngx_epoll_init(ngx_cycle_t *cycle, ngx_msec_t timer)$/;"	f	file:
+ngx_epoll_init_conf	ngx_epoll_module.c	/^ngx_epoll_init_conf(ngx_cycle_t *cycle, void *conf)$/;"	f	file:
+ngx_epoll_module	ngx_epoll_module.c	/^ngx_module_t  ngx_epoll_module = {$/;"	v
+ngx_epoll_module_ctx	ngx_epoll_module.c	/^ngx_event_module_t  ngx_epoll_module_ctx = {$/;"	v
+ngx_epoll_process_events	ngx_epoll_module.c	/^ngx_epoll_process_events(ngx_cycle_t *cycle, ngx_msec_t timer, ngx_uint_t flags)$/;"	f	file:
+ngx_eventfd	ngx_epoll_module.c	/^int                         ngx_eventfd = -1;$/;"	v
+ngx_eventfd_conn	ngx_epoll_module.c	/^static ngx_connection_t     ngx_eventfd_conn;$/;"	v	file:
+ngx_eventfd_event	ngx_epoll_module.c	/^static ngx_event_t          ngx_eventfd_event;$/;"	v	file:
+ngx_eventport_add_event	ngx_eventport_module.c	/^ngx_eventport_add_event(ngx_event_t *ev, ngx_int_t event, ngx_uint_t flags)$/;"	f	file:
+ngx_eventport_commands	ngx_eventport_module.c	/^static ngx_command_t  ngx_eventport_commands[] = {$/;"	v	file:
+ngx_eventport_conf_t	ngx_eventport_module.c	/^} ngx_eventport_conf_t;$/;"	t	typeref:struct:__anon3	file:
+ngx_eventport_create_conf	ngx_eventport_module.c	/^ngx_eventport_create_conf(ngx_cycle_t *cycle)$/;"	f	file:
+ngx_eventport_del_event	ngx_eventport_module.c	/^ngx_eventport_del_event(ngx_event_t *ev, ngx_int_t event, ngx_uint_t flags)$/;"	f	file:
+ngx_eventport_done	ngx_eventport_module.c	/^ngx_eventport_done(ngx_cycle_t *cycle)$/;"	f	file:
+ngx_eventport_init	ngx_eventport_module.c	/^ngx_eventport_init(ngx_cycle_t *cycle, ngx_msec_t timer)$/;"	f	file:
+ngx_eventport_init_conf	ngx_eventport_module.c	/^ngx_eventport_init_conf(ngx_cycle_t *cycle, void *conf)$/;"	f	file:
+ngx_eventport_module	ngx_eventport_module.c	/^ngx_module_t  ngx_eventport_module = {$/;"	v
+ngx_eventport_module_ctx	ngx_eventport_module.c	/^ngx_event_module_t  ngx_eventport_module_ctx = {$/;"	v
+ngx_eventport_process_events	ngx_eventport_module.c	/^ngx_eventport_process_events(ngx_cycle_t *cycle, ngx_msec_t timer,$/;"	f
+ngx_kqueue	ngx_kqueue_module.c	/^int                    ngx_kqueue = -1;$/;"	v
+ngx_kqueue_add_event	ngx_kqueue_module.c	/^ngx_kqueue_add_event(ngx_event_t *ev, ngx_int_t event, ngx_uint_t flags)$/;"	f	file:
+ngx_kqueue_commands	ngx_kqueue_module.c	/^static ngx_command_t  ngx_kqueue_commands[] = {$/;"	v	file:
+ngx_kqueue_conf_t	ngx_kqueue_module.c	/^} ngx_kqueue_conf_t;$/;"	t	typeref:struct:__anon4	file:
+ngx_kqueue_create_conf	ngx_kqueue_module.c	/^ngx_kqueue_create_conf(ngx_cycle_t *cycle)$/;"	f	file:
+ngx_kqueue_del_event	ngx_kqueue_module.c	/^ngx_kqueue_del_event(ngx_event_t *ev, ngx_int_t event, ngx_uint_t flags)$/;"	f	file:
+ngx_kqueue_done	ngx_kqueue_module.c	/^ngx_kqueue_done(ngx_cycle_t *cycle)$/;"	f	file:
+ngx_kqueue_dump_event	ngx_kqueue_module.c	/^ngx_kqueue_dump_event(ngx_log_t *log, struct kevent *kev)$/;"	f	file:
+ngx_kqueue_init	ngx_kqueue_module.c	/^ngx_kqueue_init(ngx_cycle_t *cycle, ngx_msec_t timer)$/;"	f	file:
+ngx_kqueue_init_conf	ngx_kqueue_module.c	/^ngx_kqueue_init_conf(ngx_cycle_t *cycle, void *conf)$/;"	f	file:
+ngx_kqueue_module	ngx_kqueue_module.c	/^ngx_module_t  ngx_kqueue_module = {$/;"	v
+ngx_kqueue_module_ctx	ngx_kqueue_module.c	/^ngx_event_module_t  ngx_kqueue_module_ctx = {$/;"	v
+ngx_kqueue_process_changes	ngx_kqueue_module.c	/^ngx_kqueue_process_changes(ngx_cycle_t *cycle, ngx_uint_t try)$/;"	f	file:
+ngx_kqueue_process_events	ngx_kqueue_module.c	/^ngx_kqueue_process_events(ngx_cycle_t *cycle, ngx_msec_t timer,$/;"	f	file:
+ngx_kqueue_set_event	ngx_kqueue_module.c	/^ngx_kqueue_set_event(ngx_event_t *ev, ngx_int_t filter, ngx_uint_t flags)$/;"	f	file:
+ngx_linux_rtsig_max	ngx_rtsig_module.c	/^int ngx_linux_rtsig_max;$/;"	v
+ngx_os_aio	ngx_aio_module.c	/^ngx_os_io_t ngx_os_aio = {$/;"	v
+ngx_overflow_threshold_bounds	ngx_rtsig_module.c	/^static ngx_conf_num_bounds_t  ngx_overflow_threshold_bounds = {$/;"	v	file:
+ngx_poll_add_event	ngx_poll_module.c	/^ngx_poll_add_event(ngx_event_t *ev, ngx_int_t event, ngx_uint_t flags)$/;"	f	file:
+ngx_poll_del_event	ngx_poll_module.c	/^ngx_poll_del_event(ngx_event_t *ev, ngx_int_t event, ngx_uint_t flags)$/;"	f	file:
+ngx_poll_done	ngx_poll_module.c	/^ngx_poll_done(ngx_cycle_t *cycle)$/;"	f	file:
+ngx_poll_init	ngx_poll_module.c	/^ngx_poll_init(ngx_cycle_t *cycle, ngx_msec_t timer)$/;"	f	file:
+ngx_poll_init_conf	ngx_poll_module.c	/^ngx_poll_init_conf(ngx_cycle_t *cycle, void *conf)$/;"	f	file:
+ngx_poll_module	ngx_poll_module.c	/^ngx_module_t  ngx_poll_module = {$/;"	v
+ngx_poll_module_ctx	ngx_poll_module.c	/^ngx_event_module_t  ngx_poll_module_ctx = {$/;"	v
+ngx_poll_process_events	ngx_poll_module.c	/^ngx_poll_process_events(ngx_cycle_t *cycle, ngx_msec_t timer, ngx_uint_t flags)$/;"	f	file:
+ngx_rtsig_add_connection	ngx_rtsig_module.c	/^ngx_rtsig_add_connection(ngx_connection_t *c)$/;"	f	file:
+ngx_rtsig_commands	ngx_rtsig_module.c	/^static ngx_command_t  ngx_rtsig_commands[] = {$/;"	v	file:
+ngx_rtsig_conf_t	ngx_rtsig_module.c	/^} ngx_rtsig_conf_t;$/;"	t	typeref:struct:__anon5	file:
+ngx_rtsig_create_conf	ngx_rtsig_module.c	/^ngx_rtsig_create_conf(ngx_cycle_t *cycle)$/;"	f	file:
+ngx_rtsig_del_connection	ngx_rtsig_module.c	/^ngx_rtsig_del_connection(ngx_connection_t *c, ngx_uint_t flags)$/;"	f	file:
+ngx_rtsig_done	ngx_rtsig_module.c	/^ngx_rtsig_done(ngx_cycle_t *cycle)$/;"	f	file:
+ngx_rtsig_init	ngx_rtsig_module.c	/^ngx_rtsig_init(ngx_cycle_t *cycle, ngx_msec_t timer)$/;"	f	file:
+ngx_rtsig_init_conf	ngx_rtsig_module.c	/^ngx_rtsig_init_conf(ngx_cycle_t *cycle, void *conf)$/;"	f	file:
+ngx_rtsig_module	ngx_rtsig_module.c	/^ngx_module_t  ngx_rtsig_module = {$/;"	v
+ngx_rtsig_module_ctx	ngx_rtsig_module.c	/^ngx_event_module_t  ngx_rtsig_module_ctx = {$/;"	v
+ngx_rtsig_process_events	ngx_rtsig_module.c	/^ngx_rtsig_process_events(ngx_cycle_t *cycle, ngx_msec_t timer, ngx_uint_t flags)$/;"	f	file:
+ngx_rtsig_process_overflow	ngx_rtsig_module.c	/^ngx_rtsig_process_overflow(ngx_cycle_t *cycle, ngx_msec_t timer,$/;"	f	file:
+ngx_select_add_event	ngx_select_module.c	/^ngx_select_add_event(ngx_event_t *ev, ngx_int_t event, ngx_uint_t flags)$/;"	f	file:
+ngx_select_add_event	ngx_win32_select_module.c	/^ngx_select_add_event(ngx_event_t *ev, ngx_int_t event, ngx_uint_t flags)$/;"	f	file:
+ngx_select_del_event	ngx_select_module.c	/^ngx_select_del_event(ngx_event_t *ev, ngx_int_t event, ngx_uint_t flags)$/;"	f	file:
+ngx_select_del_event	ngx_win32_select_module.c	/^ngx_select_del_event(ngx_event_t *ev, ngx_int_t event, ngx_uint_t flags)$/;"	f	file:
+ngx_select_done	ngx_select_module.c	/^ngx_select_done(ngx_cycle_t *cycle)$/;"	f	file:
+ngx_select_done	ngx_win32_select_module.c	/^ngx_select_done(ngx_cycle_t *cycle)$/;"	f	file:
+ngx_select_init	ngx_select_module.c	/^ngx_select_init(ngx_cycle_t *cycle, ngx_msec_t timer)$/;"	f	file:
+ngx_select_init	ngx_win32_select_module.c	/^ngx_select_init(ngx_cycle_t *cycle, ngx_msec_t timer)$/;"	f	file:
+ngx_select_init_conf	ngx_select_module.c	/^ngx_select_init_conf(ngx_cycle_t *cycle, void *conf)$/;"	f	file:
+ngx_select_init_conf	ngx_win32_select_module.c	/^ngx_select_init_conf(ngx_cycle_t *cycle, void *conf)$/;"	f	file:
+ngx_select_module	ngx_select_module.c	/^ngx_module_t  ngx_select_module = {$/;"	v
+ngx_select_module	ngx_win32_select_module.c	/^ngx_module_t  ngx_select_module = {$/;"	v
+ngx_select_module_ctx	ngx_select_module.c	/^ngx_event_module_t  ngx_select_module_ctx = {$/;"	v
+ngx_select_module_ctx	ngx_win32_select_module.c	/^ngx_event_module_t  ngx_select_module_ctx = {$/;"	v
+ngx_select_process_events	ngx_select_module.c	/^ngx_select_process_events(ngx_cycle_t *cycle, ngx_msec_t timer,$/;"	f	file:
+ngx_select_process_events	ngx_win32_select_module.c	/^ngx_select_process_events(ngx_cycle_t *cycle, ngx_msec_t timer,$/;"	f	file:
+ngx_select_repair_fd_sets	ngx_select_module.c	/^ngx_select_repair_fd_sets(ngx_cycle_t *cycle)$/;"	f	file:
+ngx_select_repair_fd_sets	ngx_win32_select_module.c	/^ngx_select_repair_fd_sets(ngx_cycle_t *cycle)$/;"	f	file:
+obj	ngx_epoll_module.c	/^    uint64_t  obj;   \/* what iocb this event came from *\/$/;"	m	struct:io_event	file:
+overflow	ngx_rtsig_module.c	/^static ngx_uint_t      overflow, overflow_current;$/;"	v	file:
+overflow_current	ngx_rtsig_module.c	/^static ngx_uint_t      overflow, overflow_current;$/;"	v	file:
+overflow_events	ngx_rtsig_module.c	/^    ngx_uint_t  overflow_events;$/;"	m	struct:__anon5	file:
+overflow_list	ngx_rtsig_module.c	/^static struct pollfd  *overflow_list;$/;"	v	typeref:struct:pollfd	file:
+overflow_test	ngx_rtsig_module.c	/^    ngx_uint_t  overflow_test;$/;"	m	struct:__anon5	file:
+overflow_threshold	ngx_rtsig_module.c	/^    ngx_uint_t  overflow_threshold;$/;"	m	struct:__anon5	file:
+poll_name	ngx_poll_module.c	/^static ngx_str_t    poll_name = ngx_string("poll");$/;"	v	file:
+port_associate	ngx_eventport_module.c	/^int port_associate(int port, int source, uintptr_t object, int events,$/;"	f
+port_create	ngx_eventport_module.c	/^int port_create(void)$/;"	f
+port_dissociate	ngx_eventport_module.c	/^int port_dissociate(int port, int source, uintptr_t object)$/;"	f
+port_event_t	ngx_eventport_module.c	/^} port_event_t;$/;"	t	typeref:struct:__anon2	file:
+port_getn	ngx_eventport_module.c	/^int port_getn(int port, port_event_t list[], uint_t max, uint_t *nget,$/;"	f
+port_notify	ngx_eventport_module.c	/^typedef struct  port_notify {$/;"	s	file:
+port_notify_t	ngx_eventport_module.c	/^} port_notify_t;$/;"	t	typeref:struct:port_notify	file:
+portev_events	ngx_eventport_module.c	/^    int         portev_events;  \/* event data is source specific *\/$/;"	m	struct:__anon2	file:
+portev_object	ngx_eventport_module.c	/^    uintptr_t   portev_object;  \/* source specific object *\/$/;"	m	struct:__anon2	file:
+portev_pad	ngx_eventport_module.c	/^    ushort_t    portev_pad;     \/* port internal use *\/$/;"	m	struct:__anon2	file:
+portev_source	ngx_eventport_module.c	/^    ushort_t    portev_source;  \/* event source *\/$/;"	m	struct:__anon2	file:
+portev_user	ngx_eventport_module.c	/^    void       *portev_user;    \/* user cookie *\/$/;"	m	struct:__anon2	file:
+portnfy_port	ngx_eventport_module.c	/^    int         portnfy_port;   \/* bind request(s) to port *\/$/;"	m	struct:port_notify	file:
+portnfy_user	ngx_eventport_module.c	/^    void       *portnfy_user;   \/* user defined *\/$/;"	m	struct:port_notify	file:
+ptr	ngx_epoll_module.c	/^    void         *ptr;$/;"	m	union:epoll_data	file:
+res	ngx_epoll_module.c	/^    int64_t   res;   \/* result code for this event *\/$/;"	m	struct:io_event	file:
+res2	ngx_epoll_module.c	/^    int64_t   res2;  \/* secondary result *\/$/;"	m	struct:io_event	file:
+rtsig_name	ngx_rtsig_module.c	/^static ngx_str_t      rtsig_name = ngx_string("rtsig");$/;"	v	file:
+select_name	ngx_select_module.c	/^static ngx_str_t    select_name = ngx_string("select");$/;"	v	file:
+select_name	ngx_win32_select_module.c	/^static ngx_str_t    select_name = ngx_string("select");$/;"	v	file:
+set	ngx_rtsig_module.c	/^static sigset_t        set;$/;"	v	file:
+si_fd	ngx_rtsig_module.c	18;"	d	file:
+si_fd	ngx_rtsig_module.c	23;"	d	file:
+si_fd	ngx_rtsig_module.c	26;"	d	file:
+signo	ngx_rtsig_module.c	/^    ngx_uint_t  signo;$/;"	m	struct:__anon5	file:
+sigtimedwait	ngx_rtsig_module.c	/^int sigtimedwait(const sigset_t *set, siginfo_t *info,$/;"	f
+timer_create	ngx_eventport_module.c	/^int timer_create(clockid_t clock_id, struct sigevent *evp, timer_t *timerid)$/;"	f
+timer_delete	ngx_eventport_module.c	/^int timer_delete(timer_t timerid)$/;"	f
+timer_settime	ngx_eventport_module.c	/^int timer_settime(timer_t timerid, int flags, const struct itimerspec *value,$/;"	f
+timer_t	ngx_eventport_module.c	/^typedef void *  timer_t;$/;"	t	file:
+u32	ngx_epoll_module.c	/^    uint32_t      u32;$/;"	m	union:epoll_data	file:
+u64	ngx_epoll_module.c	/^    uint64_t      u64;$/;"	m	union:epoll_data	file:
+uint_t	ngx_eventport_module.c	16;"	d	file:
+ushort_t	ngx_eventport_module.c	15;"	d	file:
+work_read_fd_set	ngx_select_module.c	/^static fd_set         work_read_fd_set;$/;"	v	file:
+work_read_fd_set	ngx_win32_select_module.c	/^static fd_set         work_read_fd_set;$/;"	v	file:
+work_write_fd_set	ngx_select_module.c	/^static fd_set         work_write_fd_set;$/;"	v	file:
+work_write_fd_set	ngx_win32_select_module.c	/^static fd_set         work_write_fd_set;$/;"	v	file:

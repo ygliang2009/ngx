@@ -1,0 +1,730 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CLOCK_REALTIME	modules/ngx_eventport_module.c	19;"	d	file:
+DEFAULT_CONNECTIONS	ngx_event.c	13;"	d	file:
+DP_ISPOLLED	modules/ngx_devpoll_module.c	19;"	d	file:
+DP_POLL	modules/ngx_devpoll_module.c	18;"	d	file:
+EPOLLERR	modules/ngx_epoll_module.c	25;"	d	file:
+EPOLLET	modules/ngx_epoll_module.c	28;"	d	file:
+EPOLLHUP	modules/ngx_epoll_module.c	26;"	d	file:
+EPOLLIN	modules/ngx_epoll_module.c	17;"	d	file:
+EPOLLMSG	modules/ngx_epoll_module.c	24;"	d	file:
+EPOLLONESHOT	modules/ngx_epoll_module.c	29;"	d	file:
+EPOLLOUT	modules/ngx_epoll_module.c	19;"	d	file:
+EPOLLPRI	modules/ngx_epoll_module.c	18;"	d	file:
+EPOLLRDBAND	modules/ngx_epoll_module.c	21;"	d	file:
+EPOLLRDNORM	modules/ngx_epoll_module.c	20;"	d	file:
+EPOLLWRBAND	modules/ngx_epoll_module.c	23;"	d	file:
+EPOLLWRNORM	modules/ngx_epoll_module.c	22;"	d	file:
+EPOLL_CTL_ADD	modules/ngx_epoll_module.c	31;"	d	file:
+EPOLL_CTL_DEL	modules/ngx_epoll_module.c	32;"	d	file:
+EPOLL_CTL_MOD	modules/ngx_epoll_module.c	33;"	d	file:
+ETIME	modules/ngx_eventport_module.c	34;"	d	file:
+F_SETSIG	modules/ngx_rtsig_module.c	31;"	d	file:
+KERN_RTSIGMAX	modules/ngx_rtsig_module.c	33;"	d	file:
+KERN_RTSIGNR	modules/ngx_rtsig_module.c	32;"	d	file:
+NGX_CLEAR_EVENT	ngx_event.h	382;"	d
+NGX_CLEAR_EVENT	ngx_event.h	403;"	d
+NGX_CLEAR_EVENT	ngx_event.h	438;"	d
+NGX_CLOSE_EVENT	ngx_event.h	337;"	d
+NGX_CLOSE_EVENT	ngx_event.h	371;"	d
+NGX_CLOSE_EVENT	ngx_event.h	372;"	d
+NGX_DISABLE_EVENT	ngx_event.h	343;"	d
+NGX_DISABLE_EVENT	ngx_event.h	384;"	d
+NGX_DISABLE_EVENT	ngx_event.h	385;"	d
+NGX_EVENT_CONF	ngx_event.h	465;"	d
+NGX_EVENT_MODULE	ngx_event.h	464;"	d
+NGX_FLUSH_EVENT	ngx_event.h	348;"	d
+NGX_FLUSH_EVENT	ngx_event.h	377;"	d
+NGX_FLUSH_EVENT	ngx_event.h	378;"	d
+NGX_INVALID_INDEX	ngx_event.h	16;"	d
+NGX_IOCP_ACCEPT	ngx_event.h	431;"	d
+NGX_IOCP_CONNECT	ngx_event.h	433;"	d
+NGX_IOCP_IO	ngx_event.h	432;"	d
+NGX_LEVEL_EVENT	ngx_event.h	380;"	d
+NGX_LEVEL_EVENT	ngx_event.h	393;"	d
+NGX_LEVEL_EVENT	ngx_event.h	402;"	d
+NGX_LEVEL_EVENT	ngx_event.h	415;"	d
+NGX_LEVEL_EVENT	ngx_event.h	424;"	d
+NGX_LOWAT_EVENT	ngx_event.h	352;"	d
+NGX_LOWAT_EVENT	ngx_event.h	374;"	d
+NGX_LOWAT_EVENT	ngx_event.h	375;"	d
+NGX_ONESHOT_EVENT	ngx_event.h	381;"	d
+NGX_ONESHOT_EVENT	ngx_event.h	394;"	d
+NGX_ONESHOT_EVENT	ngx_event.h	404;"	d
+NGX_ONESHOT_EVENT	ngx_event.h	416;"	d
+NGX_ONESHOT_EVENT	ngx_event.h	425;"	d
+NGX_PEER_FAILED	ngx_event_connect.h	19;"	d
+NGX_PEER_KEEPALIVE	ngx_event_connect.h	17;"	d
+NGX_PEER_NEXT	ngx_event_connect.h	18;"	d
+NGX_POST_EVENTS	ngx_event.h	519;"	d
+NGX_POST_THREAD_EVENTS	ngx_event.h	520;"	d
+NGX_READ_EVENT	ngx_event.h	358;"	d
+NGX_READ_EVENT	ngx_event.h	390;"	d
+NGX_READ_EVENT	ngx_event.h	399;"	d
+NGX_READ_EVENT	ngx_event.h	412;"	d
+NGX_READ_EVENT	ngx_event.h	421;"	d
+NGX_SSL_BUFFER	ngx_event_openssl.h	92;"	d
+NGX_SSL_BUFSIZE	ngx_event_openssl.h	95;"	d
+NGX_SSL_CLIENT	ngx_event_openssl.h	93;"	d
+NGX_SSL_DFLT_BUILTIN_SCACHE	ngx_event_openssl.h	56;"	d
+NGX_SSL_MAX_SESSION_SIZE	ngx_event_openssl.h	59;"	d
+NGX_SSL_NAME	ngx_event_openssl.h	21;"	d
+NGX_SSL_NONE_SCACHE	ngx_event_openssl.h	54;"	d
+NGX_SSL_NO_BUILTIN_SCACHE	ngx_event_openssl.h	55;"	d
+NGX_SSL_NO_SCACHE	ngx_event_openssl.h	53;"	d
+NGX_SSL_SSLv2	ngx_event_openssl.h	85;"	d
+NGX_SSL_SSLv3	ngx_event_openssl.h	86;"	d
+NGX_SSL_TLSv1	ngx_event_openssl.h	87;"	d
+NGX_SSL_TLSv1_1	ngx_event_openssl.h	88;"	d
+NGX_SSL_TLSv1_2	ngx_event_openssl.h	89;"	d
+NGX_TIMER_INFINITE	ngx_event_timer.h	17;"	d
+NGX_TIMER_LAZY_DELAY	ngx_event_timer.h	19;"	d
+NGX_UPDATE_TIME	ngx_event.h	518;"	d
+NGX_USE_AIO_EVENT	ngx_event.h	295;"	d
+NGX_USE_CLEAR_EVENT	ngx_event.h	262;"	d
+NGX_USE_EPOLL_EVENT	ngx_event.h	284;"	d
+NGX_USE_EVENTPORT_EVENT	ngx_event.h	319;"	d
+NGX_USE_FD_EVENT	ngx_event.h	307;"	d
+NGX_USE_GREEDY_EVENT	ngx_event.h	279;"	d
+NGX_USE_IOCP_EVENT	ngx_event.h	301;"	d
+NGX_USE_KQUEUE_EVENT	ngx_event.h	268;"	d
+NGX_USE_LEVEL_EVENT	ngx_event.h	250;"	d
+NGX_USE_LOWAT_EVENT	ngx_event.h	274;"	d
+NGX_USE_ONESHOT_EVENT	ngx_event.h	256;"	d
+NGX_USE_RTSIG_EVENT	ngx_event.h	289;"	d
+NGX_USE_TIMER_EVENT	ngx_event.h	313;"	d
+NGX_USE_VNODE_EVENT	ngx_event.h	324;"	d
+NGX_VNODE_EVENT	ngx_event.h	353;"	d
+NGX_VNODE_EVENT	ngx_event.h	361;"	d
+NGX_VNODE_EVENT	ngx_event.h	362;"	d
+NGX_WRITE_EVENT	ngx_event.h	359;"	d
+NGX_WRITE_EVENT	ngx_event.h	391;"	d
+NGX_WRITE_EVENT	ngx_event.h	400;"	d
+NGX_WRITE_EVENT	ngx_event.h	413;"	d
+NGX_WRITE_EVENT	ngx_event.h	422;"	d
+POLLREMOVE	modules/ngx_devpoll_module.c	17;"	d	file:
+PORT_SOURCE_AIO	modules/ngx_eventport_module.c	26;"	d	file:
+PORT_SOURCE_ALERT	modules/ngx_eventport_module.c	30;"	d	file:
+PORT_SOURCE_FD	modules/ngx_eventport_module.c	29;"	d	file:
+PORT_SOURCE_MQ	modules/ngx_eventport_module.c	31;"	d	file:
+PORT_SOURCE_TIMER	modules/ngx_eventport_module.c	27;"	d	file:
+PORT_SOURCE_USER	modules/ngx_eventport_module.c	28;"	d	file:
+SIGEV_PORT	modules/ngx_eventport_module.c	37;"	d	file:
+SIGRTMIN	modules/ngx_rtsig_module.c	17;"	d	file:
+SIGRTMIN	modules/ngx_rtsig_module.c	25;"	d	file:
+SYS_eventfd	modules/ngx_epoll_module.c	76;"	d	file:
+SYS_io_destroy	modules/ngx_epoll_module.c	74;"	d	file:
+SYS_io_getevents	modules/ngx_epoll_module.c	75;"	d	file:
+SYS_io_setup	modules/ngx_epoll_module.c	73;"	d	file:
+_NGX_EVENT_BUSY_LOCK_H_INCLUDED_	ngx_event_busy_lock.h	9;"	d
+_NGX_EVENT_CONNECT_H_INCLUDED_	ngx_event_connect.h	9;"	d
+_NGX_EVENT_H_INCLUDED_	ngx_event.h	9;"	d
+_NGX_EVENT_OPENSSL_H_INCLUDED_	ngx_event_openssl.h	9;"	d
+_NGX_EVENT_PIPE_H_INCLUDED_	ngx_event_pipe.h	9;"	d
+_NGX_EVENT_POSTED_H_INCLUDED_	ngx_event_posted.h	9;"	d
+_NGX_EVENT_TIMER_H_INCLUDED_	ngx_event_timer.h	9;"	d
+accept	ngx_event.h	/^    unsigned         accept:1;$/;"	m	struct:ngx_event_s
+accept_context_updated	ngx_event.h	/^    unsigned         accept_context_updated:1;$/;"	m	struct:ngx_event_s
+accept_mutex	ngx_event.h	/^    ngx_flag_t    accept_mutex;$/;"	m	struct:__anon12
+accept_mutex_delay	ngx_event.h	/^    ngx_msec_t    accept_mutex_delay;$/;"	m	struct:__anon12
+actions	ngx_event.h	/^    ngx_event_actions_t     actions;$/;"	m	struct:__anon13
+active	ngx_event.h	/^    unsigned         active:1;$/;"	m	struct:ngx_event_s
+add	ngx_event.h	/^    ngx_int_t  (*add)(ngx_event_t *ev, ngx_int_t event, ngx_uint_t flags);$/;"	m	struct:__anon11
+add_conn	ngx_event.h	/^    ngx_int_t  (*add_conn)(ngx_connection_t *c);$/;"	m	struct:__anon11
+aio_context_t	modules/ngx_epoll_module.c	/^typedef u_int  aio_context_t;$/;"	t	file:
+aio_name	modules/ngx_aio_module.c	/^static ngx_str_t      aio_name = ngx_string("aio");$/;"	v	file:
+aio_requests	modules/ngx_epoll_module.c	/^    ngx_uint_t  aio_requests;$/;"	m	struct:__anon3	file:
+aiocb	ngx_event.h	/^    ngx_aiocb_t                aiocb;$/;"	m	struct:ngx_event_aio_s
+aiocb	ngx_event.h	/^    struct aiocb     aiocb;$/;"	m	struct:ngx_event_s	typeref:struct:ngx_event_s::aiocb
+allocated	ngx_event_pipe.h	/^    ngx_int_t          allocated;$/;"	m	struct:ngx_event_pipe_s
+available	ngx_event.h	/^    int              available;$/;"	m	struct:ngx_event_s
+available	ngx_event.h	/^    unsigned         available:1;$/;"	m	struct:ngx_event_s
+buf	ngx_event_openssl.h	/^    ngx_buf_t                  *buf;$/;"	m	struct:__anon15
+buf_to_file	ngx_event_pipe.h	/^    ngx_buf_t         *buf_to_file;$/;"	m	struct:ngx_event_pipe_s
+buffer	ngx_event_openssl.h	/^    unsigned                    buffer:1;$/;"	m	struct:__anon15
+bufs	ngx_event_pipe.h	/^    ngx_bufs_t         bufs;$/;"	m	struct:ngx_event_pipe_s
+busy	ngx_event_busy_lock.h	/^    ngx_uint_t                  busy;$/;"	m	struct:__anon1
+busy	ngx_event_pipe.h	/^    ngx_chain_t       *busy;$/;"	m	struct:ngx_event_pipe_s
+busy_size	ngx_event_pipe.h	/^    ssize_t            busy_size;$/;"	m	struct:ngx_event_pipe_s
+cache_updated	ngx_event_busy_lock.h	/^    unsigned                    cache_updated:1;$/;"	m	struct:ngx_event_busy_lock_ctx_s
+cacheable	ngx_event_busy_lock.h	/^    ngx_uint_t                  cacheable;$/;"	m	struct:__anon1
+cacheable	ngx_event_pipe.h	/^    unsigned           cacheable:1;$/;"	m	struct:ngx_event_pipe_s
+cached	ngx_event_connect.h	/^    unsigned                         cached:1;$/;"	m	struct:ngx_peer_connection_s
+change_index	modules/ngx_devpoll_module.c	/^static ngx_event_t    **change_index;$/;"	v	file:
+change_list	modules/ngx_devpoll_module.c	/^static struct pollfd   *change_list, *event_list;$/;"	v	typeref:struct:pollfd	file:
+change_list	modules/ngx_kqueue_module.c	/^static struct kevent  *change_list, *change_list0, *change_list1;$/;"	v	typeref:struct:kevent	file:
+change_list0	modules/ngx_kqueue_module.c	/^static struct kevent  *change_list, *change_list0, *change_list1;$/;"	v	typeref:struct:	file:
+change_list1	modules/ngx_kqueue_module.c	/^static struct kevent  *change_list, *change_list0, *change_list1;$/;"	v	typeref:struct:	file:
+changes	modules/ngx_devpoll_module.c	/^    ngx_uint_t      changes;$/;"	m	struct:__anon8	file:
+changes	modules/ngx_kqueue_module.c	/^    ngx_uint_t  changes;$/;"	m	struct:__anon6	file:
+channel	ngx_event.h	/^    unsigned         channel:1;$/;"	m	struct:ngx_event_s
+clockid_t	modules/ngx_eventport_module.c	/^typedef int     clockid_t;$/;"	t	file:
+closed	ngx_event.h	/^    unsigned         closed:1;$/;"	m	struct:ngx_event_s
+complete	ngx_event.h	/^    unsigned         complete:1;$/;"	m	struct:ngx_event_s
+connection	ngx_event_connect.h	/^    ngx_connection_t                *connection;$/;"	m	struct:ngx_peer_connection_s
+connection	ngx_event_openssl.h	/^    ngx_ssl_conn_t             *connection;$/;"	m	struct:__anon15
+connection_counter	ngx_event.c	/^static ngx_atomic_t   connection_counter = 1;$/;"	v	file:
+connections	ngx_event.h	/^    ngx_uint_t    connections;$/;"	m	struct:__anon12
+create_conf	ngx_event.h	/^    void                 *(*create_conf)(ngx_cycle_t *cycle);$/;"	m	struct:__anon13
+ctx	ngx_event_openssl.h	/^    SSL_CTX                    *ctx;$/;"	m	struct:__anon14
+cyclic_temp_file	ngx_event_pipe.h	/^    unsigned           cyclic_temp_file:1;$/;"	m	struct:ngx_event_pipe_s
+data	modules/ngx_epoll_module.c	/^    epoll_data_t  data;$/;"	m	struct:epoll_event	file:
+data	modules/ngx_epoll_module.c	/^    uint64_t  data;  \/* the data field from the iocb *\/$/;"	m	struct:io_event	file:
+data	ngx_event.h	/^    void                      *data;$/;"	m	struct:ngx_event_aio_s
+data	ngx_event.h	/^    void            *data;$/;"	m	struct:ngx_event_s
+data	ngx_event_busy_lock.h	/^    void                       *data;$/;"	m	struct:ngx_event_busy_lock_ctx_s
+data	ngx_event_connect.h	/^    void                            *data;$/;"	m	struct:ngx_peer_connection_s
+debug_connection	ngx_event.h	/^    ngx_array_t   debug_connection;$/;"	m	struct:__anon12
+deferred_accept	ngx_event.h	/^    unsigned         deferred_accept:1;$/;"	m	struct:ngx_event_s
+del	ngx_event.h	/^    ngx_int_t  (*del)(ngx_event_t *ev, ngx_int_t event, ngx_uint_t flags);$/;"	m	struct:__anon11
+del_conn	ngx_event.h	/^    ngx_int_t  (*del_conn)(ngx_connection_t *c, ngx_uint_t flags);$/;"	m	struct:__anon11
+delayed	ngx_event.h	/^    unsigned         delayed:1;$/;"	m	struct:ngx_event_s
+devpoll_name	modules/ngx_devpoll_module.c	/^static ngx_str_t      devpoll_name = ngx_string("\/dev\/poll");$/;"	v	file:
+disable	ngx_event.h	/^    ngx_int_t  (*disable)(ngx_event_t *ev, ngx_int_t event, ngx_uint_t flags);$/;"	m	struct:__anon11
+disabled	ngx_event.h	/^    unsigned         disabled:1;$/;"	m	struct:ngx_event_s
+done	ngx_event.h	/^    void       (*done)(ngx_cycle_t *cycle);$/;"	m	struct:__anon11
+downstream	ngx_event_pipe.h	/^    ngx_connection_t  *downstream;$/;"	m	struct:ngx_event_pipe_s
+downstream_done	ngx_event_pipe.h	/^    unsigned           downstream_done:1;$/;"	m	struct:ngx_event_pipe_s
+downstream_error	ngx_event_pipe.h	/^    unsigned           downstream_error:1;$/;"	m	struct:ngx_event_pipe_s
+dp	modules/ngx_devpoll_module.c	/^static int              dp = -1;$/;"	v	file:
+dp_fds	modules/ngx_devpoll_module.c	/^    struct pollfd  *dp_fds;$/;"	m	struct:dvpoll	typeref:struct:dvpoll::pollfd	file:
+dp_nfds	modules/ngx_devpoll_module.c	/^    int             dp_nfds;$/;"	m	struct:dvpoll	file:
+dp_timeout	modules/ngx_devpoll_module.c	/^    int             dp_timeout;$/;"	m	struct:dvpoll	file:
+dvpoll	modules/ngx_devpoll_module.c	/^struct dvpoll {$/;"	s	file:
+enable	ngx_event.h	/^    ngx_int_t  (*enable)(ngx_event_t *ev, ngx_int_t event, ngx_uint_t flags);$/;"	m	struct:__anon11
+engine	ngx_event_openssl.c	/^    ngx_uint_t  engine;   \/* unsigned  engine:1; *\/$/;"	m	struct:__anon2	file:
+eof	ngx_event.h	/^    unsigned         eof:1;$/;"	m	struct:ngx_event_s
+ep	modules/ngx_epoll_module.c	/^static int                  ep = -1;$/;"	v	file:
+ep	modules/ngx_eventport_module.c	/^static int            ep = -1;$/;"	v	file:
+epoll_create	modules/ngx_epoll_module.c	/^int epoll_create(int size)$/;"	f
+epoll_ctl	modules/ngx_epoll_module.c	/^int epoll_ctl(int epfd, int op, int fd, struct epoll_event *event)$/;"	f
+epoll_data	modules/ngx_epoll_module.c	/^typedef union epoll_data {$/;"	u	file:
+epoll_data_t	modules/ngx_epoll_module.c	/^} epoll_data_t;$/;"	t	typeref:union:epoll_data	file:
+epoll_event	modules/ngx_epoll_module.c	/^struct epoll_event {$/;"	s	file:
+epoll_name	modules/ngx_epoll_module.c	/^static ngx_str_t      epoll_name = ngx_string("epoll");$/;"	v	file:
+epoll_wait	modules/ngx_epoll_module.c	/^int epoll_wait(int epfd, struct epoll_event *events, int nevents, int timeout)$/;"	f
+err	ngx_event.h	/^    ngx_err_t                  err;$/;"	m	struct:ngx_event_aio_s
+error	ngx_event.h	/^    int              error;$/;"	m	struct:__anon9
+error	ngx_event.h	/^    unsigned         error:1;$/;"	m	struct:ngx_event_s
+event	ngx_event.h	/^    ngx_event_t                event;$/;"	m	struct:ngx_event_aio_s
+event	ngx_event.h	/^    ngx_event_t     *event;$/;"	m	struct:__anon9
+event	ngx_event_busy_lock.h	/^    ngx_event_t                *event;$/;"	m	struct:ngx_event_busy_lock_ctx_s
+event_core_name	ngx_event.c	/^static ngx_str_t  event_core_name = ngx_string("event_core");$/;"	v	file:
+event_index	modules/ngx_select_module.c	/^static ngx_event_t  **event_index;$/;"	v	file:
+event_index	modules/ngx_win32_select_module.c	/^static ngx_event_t  **event_index;$/;"	v	file:
+event_list	modules/ngx_devpoll_module.c	/^static struct pollfd   *change_list, *event_list;$/;"	v	typeref:struct:	file:
+event_list	modules/ngx_epoll_module.c	/^static struct epoll_event  *event_list;$/;"	v	typeref:struct:epoll_event	file:
+event_list	modules/ngx_eventport_module.c	/^static port_event_t  *event_list;$/;"	v	file:
+event_list	modules/ngx_kqueue_module.c	/^static struct kevent  *event_list;$/;"	v	typeref:struct:kevent	file:
+event_list	modules/ngx_poll_module.c	/^static struct pollfd  *event_list;$/;"	v	typeref:struct:pollfd	file:
+event_timer	modules/ngx_eventport_module.c	/^static timer_t        event_timer = (timer_t) -1;$/;"	v	file:
+eventport_name	modules/ngx_eventport_module.c	/^static ngx_str_t      eventport_name = ngx_string("eventport");$/;"	v	file:
+events	modules/ngx_devpoll_module.c	/^    ngx_uint_t      events;$/;"	m	struct:__anon8	file:
+events	modules/ngx_epoll_module.c	/^    ngx_uint_t  events;$/;"	m	struct:__anon3	file:
+events	modules/ngx_epoll_module.c	/^    uint32_t      events;$/;"	m	struct:epoll_event	file:
+events	modules/ngx_eventport_module.c	/^    ngx_uint_t  events;$/;"	m	struct:__anon5	file:
+events	modules/ngx_kqueue_module.c	/^    ngx_uint_t  events;$/;"	m	struct:__anon6	file:
+events	ngx_event.h	/^    ngx_event_t     *events;$/;"	m	struct:__anon10
+events	ngx_event_busy_lock.h	/^    ngx_event_busy_lock_ctx_t  *events;$/;"	m	struct:__anon1
+expire	ngx_event_openssl.h	/^    time_t                      expire;$/;"	m	struct:ngx_ssl_sess_id_s
+expire_queue	ngx_event_openssl.h	/^    ngx_queue_t                 expire_queue;$/;"	m	struct:__anon16
+fd	modules/ngx_epoll_module.c	/^    int           fd;$/;"	m	union:epoll_data	file:
+fd	ngx_event.h	/^    ngx_fd_t                   fd;$/;"	m	struct:ngx_event_aio_s
+file	ngx_event.h	/^    ngx_file_t                *file;$/;"	m	struct:ngx_event_aio_s
+free	ngx_event_connect.h	/^    ngx_event_free_peer_pt           free;$/;"	m	struct:ngx_peer_connection_s
+free	ngx_event_pipe.h	/^    ngx_chain_t       *free;$/;"	m	struct:ngx_event_pipe_s
+free_bufs	ngx_event_pipe.h	/^    unsigned           free_bufs:1;$/;"	m	struct:ngx_event_pipe_s
+free_raw_bufs	ngx_event_pipe.h	/^    ngx_chain_t       *free_raw_bufs;$/;"	m	struct:ngx_event_pipe_s
+get	ngx_event_connect.h	/^    ngx_event_get_peer_pt            get;$/;"	m	struct:ngx_peer_connection_s
+handler	ngx_event.h	/^    ngx_event_handler_pt       handler;$/;"	m	struct:ngx_event_aio_s
+handler	ngx_event.h	/^    ngx_event_handler_pt  handler;$/;"	m	struct:ngx_event_s
+handler	ngx_event_busy_lock.h	/^    ngx_event_handler_pt        handler;$/;"	m	struct:ngx_event_busy_lock_ctx_s
+handler	ngx_event_openssl.h	/^    ngx_connection_handler_pt   handler;$/;"	m	struct:__anon15
+handshaked	ngx_event_openssl.h	/^    unsigned                    handshaked:1;$/;"	m	struct:__anon15
+id	ngx_event_openssl.h	/^    u_char                     *id;$/;"	m	struct:ngx_ssl_sess_id_s
+in	ngx_event_pipe.h	/^    ngx_chain_t       *in;$/;"	m	struct:ngx_event_pipe_s
+index	ngx_event.h	/^    ngx_uint_t       index;$/;"	m	struct:ngx_event_s
+init	ngx_event.h	/^    ngx_int_t  (*init)(ngx_cycle_t *cycle, ngx_msec_t timer);$/;"	m	struct:__anon11
+init_conf	ngx_event.h	/^    char                 *(*init_conf)(ngx_cycle_t *cycle, void *conf);$/;"	m	struct:__anon13
+input_ctx	ngx_event_pipe.h	/^    void                             *input_ctx;$/;"	m	struct:ngx_event_pipe_s
+input_filter	ngx_event_pipe.h	/^    ngx_event_pipe_input_filter_pt    input_filter;$/;"	m	struct:ngx_event_pipe_s
+instance	ngx_event.h	/^    unsigned         instance:1;$/;"	m	struct:ngx_event_s
+io_destroy	modules/ngx_epoll_module.c	/^io_destroy(aio_context_t ctx)$/;"	f	file:
+io_event	modules/ngx_epoll_module.c	/^struct io_event {$/;"	s	file:
+io_getevents	modules/ngx_epoll_module.c	/^io_getevents(aio_context_t ctx, long min_nr, long nr, struct io_event *events,$/;"	f	file:
+io_setup	modules/ngx_epoll_module.c	/^io_setup(u_int nr_reqs, aio_context_t *ctx)$/;"	f	file:
+it_interval	modules/ngx_eventport_module.c	/^    struct timespec it_interval;\/* timer period *\/$/;"	m	struct:itimerspec	typeref:struct:itimerspec::timespec	file:
+it_value	modules/ngx_eventport_module.c	/^    struct timespec it_value;   \/* timer expiration *\/$/;"	m	struct:itimerspec	typeref:struct:itimerspec::timespec	file:
+itimerspec	modules/ngx_eventport_module.c	/^typedef struct itimerspec {     \/* definition per POSIX.4 *\/$/;"	s	file:
+itimerspec_t	modules/ngx_eventport_module.c	/^} itimerspec_t;$/;"	t	typeref:struct:itimerspec	file:
+kevent_mutex	modules/ngx_kqueue_module.c	/^static ngx_mutex_t    *kevent_mutex;$/;"	v	file:
+kq_errno	ngx_event.h	/^    int              kq_errno;$/;"	m	struct:ngx_event_s
+kq_vnode	ngx_event.h	/^    unsigned         kq_vnode:1;$/;"	m	struct:ngx_event_s
+kqueue_name	modules/ngx_kqueue_module.c	/^static ngx_str_t      kqueue_name = ngx_string("kqueue");$/;"	v	file:
+last	ngx_event.h	/^    ngx_event_t     *last;$/;"	m	struct:__anon10
+last	ngx_event_busy_lock.h	/^    ngx_event_busy_lock_ctx_t  *last;$/;"	m	struct:__anon1
+last	ngx_event_openssl.h	/^    ngx_int_t                   last;$/;"	m	struct:__anon15
+last_in	ngx_event_pipe.h	/^    ngx_chain_t      **last_in;$/;"	m	struct:ngx_event_pipe_s
+last_offset	ngx_event.h	/^    off_t                      last_offset;$/;"	m	struct:ngx_event_aio_s
+len	ngx_event_openssl.h	/^    size_t                      len;$/;"	m	struct:ngx_ssl_sess_id_s
+length	ngx_event_pipe.h	/^    off_t              length;$/;"	m	struct:ngx_event_pipe_s
+list_mutex	modules/ngx_kqueue_module.c	/^static ngx_mutex_t    *list_mutex;$/;"	v	file:
+local	ngx_event_connect.h	/^    ngx_addr_t                      *local;$/;"	m	struct:ngx_peer_connection_s
+lock	ngx_event.h	/^    ngx_atomic_t    *lock;$/;"	m	struct:ngx_event_s
+lock	ngx_event.h	/^    ngx_uint_t       lock;$/;"	m	struct:__anon10
+lock	ngx_event_connect.h	/^    ngx_atomic_t                    *lock;$/;"	m	struct:ngx_peer_connection_s
+locked	ngx_event.h	/^    unsigned         locked:1;$/;"	m	struct:ngx_event_s
+locked	ngx_event_busy_lock.h	/^    unsigned                    locked:1;$/;"	m	struct:ngx_event_busy_lock_ctx_s
+log	ngx_event.h	/^    ngx_log_t       *log;$/;"	m	struct:ngx_event_s
+log	ngx_event_connect.h	/^    ngx_log_t                       *log;$/;"	m	struct:ngx_peer_connection_s
+log	ngx_event_openssl.h	/^    ngx_log_t                  *log;$/;"	m	struct:__anon14
+log	ngx_event_pipe.h	/^    ngx_log_t         *log;$/;"	m	struct:ngx_event_pipe_s
+log_error	ngx_event_connect.h	/^    unsigned                         log_error:2;$/;"	m	struct:ngx_peer_connection_s
+master_read_fd_set	modules/ngx_select_module.c	/^static fd_set         master_read_fd_set;$/;"	v	file:
+master_read_fd_set	modules/ngx_win32_select_module.c	/^static fd_set         master_read_fd_set;$/;"	v	file:
+master_write_fd_set	modules/ngx_select_module.c	/^static fd_set         master_write_fd_set;$/;"	v	file:
+master_write_fd_set	modules/ngx_win32_select_module.c	/^static fd_set         master_write_fd_set;$/;"	v	file:
+max_busy	ngx_event_busy_lock.h	/^    ngx_uint_t                  max_busy;$/;"	m	struct:__anon1
+max_changes	modules/ngx_devpoll_module.c	/^static ngx_uint_t       nchanges, max_changes, nevents;$/;"	v	file:
+max_changes	modules/ngx_kqueue_module.c	/^static ngx_uint_t      max_changes, nchanges, nevents;$/;"	v	file:
+max_fd	modules/ngx_select_module.c	/^static ngx_int_t      max_fd;$/;"	v	file:
+max_read	modules/ngx_win32_select_module.c	/^static ngx_uint_t     max_read;$/;"	v	file:
+max_temp_file_size	ngx_event_pipe.h	/^    off_t              max_temp_file_size;$/;"	m	struct:ngx_event_pipe_s
+max_waiting	ngx_event_busy_lock.h	/^    ngx_uint_t                  max_waiting;$/;"	m	struct:__anon1
+max_write	modules/ngx_win32_select_module.c	/^static ngx_uint_t     max_write;$/;"	v	file:
+md5	ngx_event_busy_lock.h	/^    char                       *md5;$/;"	m	struct:__anon1
+md5	ngx_event_busy_lock.h	/^    char                       *md5;$/;"	m	struct:ngx_event_busy_lock_ctx_s
+md5_mask	ngx_event_busy_lock.h	/^    u_char                     *md5_mask;$/;"	m	struct:__anon1
+multi_accept	ngx_event.h	/^    ngx_flag_t    multi_accept;$/;"	m	struct:__anon12
+mutex	ngx_event_busy_lock.h	/^    ngx_mutex_t                *mutex;$/;"	m	struct:__anon1
+name	ngx_event.h	/^    ngx_str_t              *name;$/;"	m	struct:__anon13
+name	ngx_event.h	/^    u_char       *name;$/;"	m	struct:__anon12
+name	ngx_event_connect.h	/^    ngx_str_t                       *name;$/;"	m	struct:ngx_peer_connection_s
+nbytes	ngx_event.h	/^    size_t                     nbytes;$/;"	m	struct:ngx_event_aio_s
+nchanges	modules/ngx_devpoll_module.c	/^static ngx_uint_t       nchanges, max_changes, nevents;$/;"	v	file:
+nchanges	modules/ngx_kqueue_module.c	/^static ngx_uint_t      max_changes, nchanges, nevents;$/;"	v	file:
+nevents	modules/ngx_devpoll_module.c	/^static ngx_uint_t       nchanges, max_changes, nevents;$/;"	v	file:
+nevents	modules/ngx_epoll_module.c	/^static ngx_uint_t           nevents;$/;"	v	file:
+nevents	modules/ngx_eventport_module.c	/^static ngx_uint_t     nevents;$/;"	v	file:
+nevents	modules/ngx_kqueue_module.c	/^static ngx_uint_t      max_changes, nchanges, nevents;$/;"	v	file:
+nevents	modules/ngx_poll_module.c	/^static ngx_int_t       nevents;$/;"	v	file:
+nevents	modules/ngx_select_module.c	/^static ngx_uint_t     nevents;$/;"	v	file:
+nevents	modules/ngx_win32_select_module.c	/^static ngx_uint_t     nevents;$/;"	v	file:
+next	ngx_event.h	/^    ngx_event_t     *next;$/;"	m	struct:ngx_event_s
+next	ngx_event_busy_lock.h	/^    ngx_event_busy_lock_ctx_t  *next;$/;"	m	struct:ngx_event_busy_lock_ctx_s
+ngx_accept_disabled	ngx_event.c	/^ngx_int_t             ngx_accept_disabled;$/;"	v
+ngx_accept_events	ngx_event.c	/^ngx_uint_t            ngx_accept_events;$/;"	v
+ngx_accept_log_error	ngx_event_accept.c	/^ngx_accept_log_error(ngx_log_t *log, u_char *buf, size_t len)$/;"	f
+ngx_accept_mutex	ngx_event.c	/^ngx_shmtx_t           ngx_accept_mutex;$/;"	v
+ngx_accept_mutex_delay	ngx_event.c	/^ngx_msec_t            ngx_accept_mutex_delay;$/;"	v
+ngx_accept_mutex_held	ngx_event.c	/^ngx_uint_t            ngx_accept_mutex_held;$/;"	v
+ngx_accept_mutex_lock_file	ngx_event.c	/^ngx_file_t            ngx_accept_mutex_lock_file;$/;"	v
+ngx_accept_mutex_ptr	ngx_event.c	/^ngx_atomic_t         *ngx_accept_mutex_ptr;$/;"	v
+ngx_add_conn	ngx_event.h	448;"	d
+ngx_add_event	ngx_event.h	446;"	d
+ngx_add_timer	ngx_event.h	451;"	d
+ngx_aio_add_event	modules/ngx_aio_module.c	/^ngx_aio_add_event(ngx_event_t *ev, ngx_int_t event, ngx_uint_t flags)$/;"	f	file:
+ngx_aio_ctx	modules/ngx_epoll_module.c	/^aio_context_t               ngx_aio_ctx = 0;$/;"	v
+ngx_aio_del_connection	modules/ngx_aio_module.c	/^ngx_aio_del_connection(ngx_connection_t *c, ngx_uint_t flags)$/;"	f	file:
+ngx_aio_del_event	modules/ngx_aio_module.c	/^ngx_aio_del_event(ngx_event_t *ev, ngx_int_t event, ngx_uint_t flags)$/;"	f	file:
+ngx_aio_done	modules/ngx_aio_module.c	/^ngx_aio_done(ngx_cycle_t *cycle)$/;"	f	file:
+ngx_aio_init	modules/ngx_aio_module.c	/^ngx_aio_init(ngx_cycle_t *cycle, ngx_msec_t timer)$/;"	f	file:
+ngx_aio_module	modules/ngx_aio_module.c	/^ngx_module_t  ngx_aio_module = {$/;"	v
+ngx_aio_module_ctx	modules/ngx_aio_module.c	/^ngx_event_module_t  ngx_aio_module_ctx = {$/;"	v
+ngx_aio_process_events	modules/ngx_aio_module.c	/^ngx_aio_process_events(ngx_cycle_t *cycle, ngx_msec_t timer, ngx_uint_t flags)$/;"	f	file:
+ngx_check_ngx_overflow_threshold_bounds	modules/ngx_rtsig_module.c	/^ngx_check_ngx_overflow_threshold_bounds(ngx_conf_t *cf, void *post, void *data)$/;"	f	file:
+ngx_close_accepted_connection	ngx_event_accept.c	/^ngx_close_accepted_connection(ngx_connection_t *c)$/;"	f	file:
+ngx_connection_counter	ngx_event.c	/^ngx_atomic_t         *ngx_connection_counter = &connection_counter;$/;"	v
+ngx_del_conn	ngx_event.h	449;"	d
+ngx_del_event	ngx_event.h	447;"	d
+ngx_del_timer	ngx_event.h	452;"	d
+ngx_delete_posted_event	ngx_event_posted.h	48;"	d
+ngx_devpoll_add_event	modules/ngx_devpoll_module.c	/^ngx_devpoll_add_event(ngx_event_t *ev, ngx_int_t event, ngx_uint_t flags)$/;"	f	file:
+ngx_devpoll_commands	modules/ngx_devpoll_module.c	/^static ngx_command_t  ngx_devpoll_commands[] = {$/;"	v	file:
+ngx_devpoll_conf_t	modules/ngx_devpoll_module.c	/^} ngx_devpoll_conf_t;$/;"	t	typeref:struct:__anon8	file:
+ngx_devpoll_create_conf	modules/ngx_devpoll_module.c	/^ngx_devpoll_create_conf(ngx_cycle_t *cycle)$/;"	f	file:
+ngx_devpoll_del_event	modules/ngx_devpoll_module.c	/^ngx_devpoll_del_event(ngx_event_t *ev, ngx_int_t event, ngx_uint_t flags)$/;"	f	file:
+ngx_devpoll_done	modules/ngx_devpoll_module.c	/^ngx_devpoll_done(ngx_cycle_t *cycle)$/;"	f	file:
+ngx_devpoll_init	modules/ngx_devpoll_module.c	/^ngx_devpoll_init(ngx_cycle_t *cycle, ngx_msec_t timer)$/;"	f	file:
+ngx_devpoll_init_conf	modules/ngx_devpoll_module.c	/^ngx_devpoll_init_conf(ngx_cycle_t *cycle, void *conf)$/;"	f	file:
+ngx_devpoll_module	modules/ngx_devpoll_module.c	/^ngx_module_t  ngx_devpoll_module = {$/;"	v
+ngx_devpoll_module_ctx	modules/ngx_devpoll_module.c	/^ngx_event_module_t  ngx_devpoll_module_ctx = {$/;"	v
+ngx_devpoll_process_events	modules/ngx_devpoll_module.c	/^ngx_devpoll_process_events(ngx_cycle_t *cycle, ngx_msec_t timer,$/;"	f
+ngx_devpoll_set_event	modules/ngx_devpoll_module.c	/^ngx_devpoll_set_event(ngx_event_t *ev, ngx_int_t event, ngx_uint_t flags)$/;"	f	file:
+ngx_disable_accept_events	ngx_event_accept.c	/^ngx_disable_accept_events(ngx_cycle_t *cycle)$/;"	f	file:
+ngx_done_events	ngx_event.h	444;"	d
+ngx_enable_accept_events	ngx_event_accept.c	/^ngx_enable_accept_events(ngx_cycle_t *cycle)$/;"	f	file:
+ngx_epoll_add_connection	modules/ngx_epoll_module.c	/^ngx_epoll_add_connection(ngx_connection_t *c)$/;"	f	file:
+ngx_epoll_add_event	modules/ngx_epoll_module.c	/^ngx_epoll_add_event(ngx_event_t *ev, ngx_int_t event, ngx_uint_t flags)$/;"	f	file:
+ngx_epoll_aio_init	modules/ngx_epoll_module.c	/^ngx_epoll_aio_init(ngx_cycle_t *cycle, ngx_epoll_conf_t *epcf)$/;"	f	file:
+ngx_epoll_commands	modules/ngx_epoll_module.c	/^static ngx_command_t  ngx_epoll_commands[] = {$/;"	v	file:
+ngx_epoll_conf_t	modules/ngx_epoll_module.c	/^} ngx_epoll_conf_t;$/;"	t	typeref:struct:__anon3	file:
+ngx_epoll_create_conf	modules/ngx_epoll_module.c	/^ngx_epoll_create_conf(ngx_cycle_t *cycle)$/;"	f	file:
+ngx_epoll_del_connection	modules/ngx_epoll_module.c	/^ngx_epoll_del_connection(ngx_connection_t *c, ngx_uint_t flags)$/;"	f	file:
+ngx_epoll_del_event	modules/ngx_epoll_module.c	/^ngx_epoll_del_event(ngx_event_t *ev, ngx_int_t event, ngx_uint_t flags)$/;"	f	file:
+ngx_epoll_done	modules/ngx_epoll_module.c	/^ngx_epoll_done(ngx_cycle_t *cycle)$/;"	f	file:
+ngx_epoll_eventfd_handler	modules/ngx_epoll_module.c	/^ngx_epoll_eventfd_handler(ngx_event_t *ev)$/;"	f	file:
+ngx_epoll_init	modules/ngx_epoll_module.c	/^ngx_epoll_init(ngx_cycle_t *cycle, ngx_msec_t timer)$/;"	f	file:
+ngx_epoll_init_conf	modules/ngx_epoll_module.c	/^ngx_epoll_init_conf(ngx_cycle_t *cycle, void *conf)$/;"	f	file:
+ngx_epoll_module	modules/ngx_epoll_module.c	/^ngx_module_t  ngx_epoll_module = {$/;"	v
+ngx_epoll_module_ctx	modules/ngx_epoll_module.c	/^ngx_event_module_t  ngx_epoll_module_ctx = {$/;"	v
+ngx_epoll_process_events	modules/ngx_epoll_module.c	/^ngx_epoll_process_events(ngx_cycle_t *cycle, ngx_msec_t timer, ngx_uint_t flags)$/;"	f	file:
+ngx_event_accept	ngx_event_accept.c	/^ngx_event_accept(ngx_event_t *ev)$/;"	f
+ngx_event_actions	ngx_event.c	/^ngx_event_actions_t   ngx_event_actions;$/;"	v
+ngx_event_actions_t	ngx_event.h	/^} ngx_event_actions_t;$/;"	t	typeref:struct:__anon11
+ngx_event_add_timer	ngx_event_timer.h	/^ngx_event_add_timer(ngx_event_t *ev, ngx_msec_t timer)$/;"	f
+ngx_event_aio_s	ngx_event.h	/^struct ngx_event_aio_s {$/;"	s
+ngx_event_busy_lock	ngx_event_busy_lock.c	/^ngx_event_busy_lock(ngx_event_busy_lock_t *bl, ngx_event_busy_lock_ctx_t *ctx)$/;"	f
+ngx_event_busy_lock_cacheable	ngx_event_busy_lock.c	/^ngx_event_busy_lock_cacheable(ngx_event_busy_lock_t *bl,$/;"	f
+ngx_event_busy_lock_cancel	ngx_event_busy_lock.c	/^ngx_event_busy_lock_cancel(ngx_event_busy_lock_t *bl,$/;"	f
+ngx_event_busy_lock_ctx_s	ngx_event_busy_lock.h	/^struct ngx_event_busy_lock_ctx_s {$/;"	s
+ngx_event_busy_lock_ctx_t	ngx_event_busy_lock.h	/^typedef struct ngx_event_busy_lock_ctx_s  ngx_event_busy_lock_ctx_t;$/;"	t	typeref:struct:ngx_event_busy_lock_ctx_s
+ngx_event_busy_lock_handler	ngx_event_busy_lock.c	/^ngx_event_busy_lock_handler(ngx_event_t *ev)$/;"	f	file:
+ngx_event_busy_lock_look_cacheable	ngx_event_busy_lock.c	/^ngx_event_busy_lock_look_cacheable(ngx_event_busy_lock_t *bl,$/;"	f	file:
+ngx_event_busy_lock_posted_handler	ngx_event_busy_lock.c	/^ngx_event_busy_lock_posted_handler(ngx_event_t *ev)$/;"	f	file:
+ngx_event_busy_lock_t	ngx_event_busy_lock.h	/^} ngx_event_busy_lock_t;$/;"	t	typeref:struct:__anon1
+ngx_event_busy_unlock	ngx_event_busy_lock.c	/^ngx_event_busy_unlock(ngx_event_busy_lock_t *bl,$/;"	f
+ngx_event_conf_t	ngx_event.h	/^} ngx_event_conf_t;$/;"	t	typeref:struct:__anon12
+ngx_event_connect_peer	ngx_event_connect.c	/^ngx_event_connect_peer(ngx_peer_connection_t *pc)$/;"	f
+ngx_event_connections	ngx_event.c	/^ngx_event_connections(ngx_conf_t *cf, ngx_command_t *cmd, void *conf)$/;"	f	file:
+ngx_event_core_commands	ngx_event.c	/^static ngx_command_t  ngx_event_core_commands[] = {$/;"	v	file:
+ngx_event_core_create_conf	ngx_event.c	/^ngx_event_core_create_conf(ngx_cycle_t *cycle)$/;"	f	file:
+ngx_event_core_init_conf	ngx_event.c	/^ngx_event_core_init_conf(ngx_cycle_t *cycle, void *conf)$/;"	f	file:
+ngx_event_core_module	ngx_event.c	/^ngx_module_t  ngx_event_core_module = {$/;"	v
+ngx_event_core_module_ctx	ngx_event.c	/^ngx_event_module_t  ngx_event_core_module_ctx = {$/;"	v
+ngx_event_debug_connection	ngx_event.c	/^ngx_event_debug_connection(ngx_conf_t *cf, ngx_command_t *cmd, void *conf)$/;"	f	file:
+ngx_event_del_timer	ngx_event_timer.h	/^ngx_event_del_timer(ngx_event_t *ev)$/;"	f
+ngx_event_expire_timers	ngx_event_timer.c	/^ngx_event_expire_timers(void)$/;"	f
+ngx_event_find_timer	ngx_event_timer.c	/^ngx_event_find_timer(void)$/;"	f
+ngx_event_flags	ngx_event.c	/^ngx_uint_t            ngx_event_flags;$/;"	v
+ngx_event_free_peer_pt	ngx_event_connect.h	/^typedef void (*ngx_event_free_peer_pt)(ngx_peer_connection_t *pc, void *data,$/;"	t
+ngx_event_get_conf	ngx_event.h	529;"	d
+ngx_event_get_peer	ngx_event_connect.c	/^ngx_event_get_peer(ngx_peer_connection_t *pc, void *data)$/;"	f
+ngx_event_get_peer_pt	ngx_event_connect.h	/^typedef ngx_int_t (*ngx_event_get_peer_pt)(ngx_peer_connection_t *pc,$/;"	t
+ngx_event_ident	ngx_event.h	555;"	d
+ngx_event_init_conf	ngx_event.c	/^ngx_event_init_conf(ngx_cycle_t *cycle, void *conf)$/;"	f	file:
+ngx_event_max_module	ngx_event.c	/^static ngx_uint_t     ngx_event_max_module;$/;"	v	file:
+ngx_event_module_init	ngx_event.c	/^ngx_event_module_init(ngx_cycle_t *cycle)$/;"	f	file:
+ngx_event_module_t	ngx_event.h	/^} ngx_event_module_t;$/;"	t	typeref:struct:__anon13
+ngx_event_mutex_t	ngx_event.h	/^} ngx_event_mutex_t;$/;"	t	typeref:struct:__anon10
+ngx_event_mutex_timedlock	ngx_event_mutex.c	/^ngx_int_t ngx_event_mutex_timedlock(ngx_event_mutex_t *m, ngx_msec_t timer,$/;"	f
+ngx_event_mutex_unlock	ngx_event_mutex.c	/^ngx_int_t ngx_event_mutex_unlock(ngx_event_mutex_t *m, ngx_log_t *log)$/;"	f
+ngx_event_ovlp_t	ngx_event.h	/^} ngx_event_ovlp_t;$/;"	t	typeref:struct:__anon9
+ngx_event_pipe	ngx_event_pipe.c	/^ngx_event_pipe(ngx_event_pipe_t *p, ngx_int_t do_write)$/;"	f
+ngx_event_pipe_add_free_buf	ngx_event_pipe.c	/^ngx_event_pipe_add_free_buf(ngx_event_pipe_t *p, ngx_buf_t *b)$/;"	f
+ngx_event_pipe_copy_input_filter	ngx_event_pipe.c	/^ngx_event_pipe_copy_input_filter(ngx_event_pipe_t *p, ngx_buf_t *buf)$/;"	f
+ngx_event_pipe_drain_chains	ngx_event_pipe.c	/^ngx_event_pipe_drain_chains(ngx_event_pipe_t *p)$/;"	f	file:
+ngx_event_pipe_input_filter_pt	ngx_event_pipe.h	/^typedef ngx_int_t (*ngx_event_pipe_input_filter_pt)(ngx_event_pipe_t *p,$/;"	t
+ngx_event_pipe_output_filter_pt	ngx_event_pipe.h	/^typedef ngx_int_t (*ngx_event_pipe_output_filter_pt)(void *data,$/;"	t
+ngx_event_pipe_read_upstream	ngx_event_pipe.c	/^ngx_event_pipe_read_upstream(ngx_event_pipe_t *p)$/;"	f	file:
+ngx_event_pipe_remove_shadow_links	ngx_event_pipe.c	/^ngx_event_pipe_remove_shadow_links(ngx_buf_t *buf)$/;"	f	file:
+ngx_event_pipe_s	ngx_event_pipe.h	/^struct ngx_event_pipe_s {$/;"	s
+ngx_event_pipe_t	ngx_event_pipe.h	/^typedef struct ngx_event_pipe_s  ngx_event_pipe_t;$/;"	t	typeref:struct:ngx_event_pipe_s
+ngx_event_pipe_write_chain_to_temp_file	ngx_event_pipe.c	/^ngx_event_pipe_write_chain_to_temp_file(ngx_event_pipe_t *p)$/;"	f	file:
+ngx_event_pipe_write_to_downstream	ngx_event_pipe.c	/^ngx_event_pipe_write_to_downstream(ngx_event_pipe_t *p)$/;"	f	file:
+ngx_event_process_init	ngx_event.c	/^ngx_event_process_init(ngx_cycle_t *cycle)$/;"	f	file:
+ngx_event_process_posted	ngx_event_posted.c	/^ngx_event_process_posted(ngx_cycle_t *cycle,$/;"	f
+ngx_event_s	ngx_event.h	/^struct ngx_event_s {$/;"	s
+ngx_event_save_peer_session_pt	ngx_event_connect.h	/^typedef void (*ngx_event_save_peer_session_pt)(ngx_peer_connection_t *pc,$/;"	t
+ngx_event_set_peer_session_pt	ngx_event_connect.h	/^typedef ngx_int_t (*ngx_event_set_peer_session_pt)(ngx_peer_connection_t *pc,$/;"	t
+ngx_event_thread_process_posted	ngx_event_posted.c	/^ngx_event_thread_process_posted(ngx_cycle_t *cycle)$/;"	f
+ngx_event_timer_alarm	ngx_event.c	/^sig_atomic_t          ngx_event_timer_alarm;$/;"	v
+ngx_event_timer_init	ngx_event_timer.c	/^ngx_event_timer_init(ngx_log_t *log)$/;"	f
+ngx_event_timer_mutex	ngx_event_timer.c	/^ngx_mutex_t  *ngx_event_timer_mutex;$/;"	v
+ngx_event_timer_rbtree	ngx_event_timer.c	/^ngx_thread_volatile ngx_rbtree_t  ngx_event_timer_rbtree;$/;"	v
+ngx_event_timer_sentinel	ngx_event_timer.c	/^static ngx_rbtree_node_t          ngx_event_timer_sentinel;$/;"	v	file:
+ngx_event_use	ngx_event.c	/^ngx_event_use(ngx_conf_t *cf, ngx_command_t *cmd, void *conf)$/;"	f	file:
+ngx_eventfd	modules/ngx_epoll_module.c	/^int                         ngx_eventfd = -1;$/;"	v
+ngx_eventfd_conn	modules/ngx_epoll_module.c	/^static ngx_connection_t     ngx_eventfd_conn;$/;"	v	file:
+ngx_eventfd_event	modules/ngx_epoll_module.c	/^static ngx_event_t          ngx_eventfd_event;$/;"	v	file:
+ngx_eventport_add_event	modules/ngx_eventport_module.c	/^ngx_eventport_add_event(ngx_event_t *ev, ngx_int_t event, ngx_uint_t flags)$/;"	f	file:
+ngx_eventport_commands	modules/ngx_eventport_module.c	/^static ngx_command_t  ngx_eventport_commands[] = {$/;"	v	file:
+ngx_eventport_conf_t	modules/ngx_eventport_module.c	/^} ngx_eventport_conf_t;$/;"	t	typeref:struct:__anon5	file:
+ngx_eventport_create_conf	modules/ngx_eventport_module.c	/^ngx_eventport_create_conf(ngx_cycle_t *cycle)$/;"	f	file:
+ngx_eventport_del_event	modules/ngx_eventport_module.c	/^ngx_eventport_del_event(ngx_event_t *ev, ngx_int_t event, ngx_uint_t flags)$/;"	f	file:
+ngx_eventport_done	modules/ngx_eventport_module.c	/^ngx_eventport_done(ngx_cycle_t *cycle)$/;"	f	file:
+ngx_eventport_init	modules/ngx_eventport_module.c	/^ngx_eventport_init(ngx_cycle_t *cycle, ngx_msec_t timer)$/;"	f	file:
+ngx_eventport_init_conf	modules/ngx_eventport_module.c	/^ngx_eventport_init_conf(ngx_cycle_t *cycle, void *conf)$/;"	f	file:
+ngx_eventport_module	modules/ngx_eventport_module.c	/^ngx_module_t  ngx_eventport_module = {$/;"	v
+ngx_eventport_module_ctx	modules/ngx_eventport_module.c	/^ngx_event_module_t  ngx_eventport_module_ctx = {$/;"	v
+ngx_eventport_process_events	modules/ngx_eventport_module.c	/^ngx_eventport_process_events(ngx_cycle_t *cycle, ngx_msec_t timer,$/;"	f
+ngx_events_block	ngx_event.c	/^ngx_events_block(ngx_conf_t *cf, ngx_command_t *cmd, void *conf)$/;"	f	file:
+ngx_events_commands	ngx_event.c	/^static ngx_command_t  ngx_events_commands[] = {$/;"	v	file:
+ngx_events_module	ngx_event.c	/^ngx_module_t  ngx_events_module = {$/;"	v
+ngx_events_module_ctx	ngx_event.c	/^static ngx_core_module_t  ngx_events_module_ctx = {$/;"	v	file:
+ngx_handle_read_event	ngx_event.c	/^ngx_handle_read_event(ngx_event_t *rev, ngx_uint_t flags)$/;"	f
+ngx_handle_write_event	ngx_event.c	/^ngx_handle_write_event(ngx_event_t *wev, size_t lowat)$/;"	f
+ngx_http_ssl_verify_callback	ngx_event_openssl.c	/^ngx_http_ssl_verify_callback(int ok, X509_STORE_CTX *x509_store)$/;"	f	file:
+ngx_kqueue	modules/ngx_kqueue_module.c	/^int                    ngx_kqueue = -1;$/;"	v
+ngx_kqueue_add_event	modules/ngx_kqueue_module.c	/^ngx_kqueue_add_event(ngx_event_t *ev, ngx_int_t event, ngx_uint_t flags)$/;"	f	file:
+ngx_kqueue_commands	modules/ngx_kqueue_module.c	/^static ngx_command_t  ngx_kqueue_commands[] = {$/;"	v	file:
+ngx_kqueue_conf_t	modules/ngx_kqueue_module.c	/^} ngx_kqueue_conf_t;$/;"	t	typeref:struct:__anon6	file:
+ngx_kqueue_create_conf	modules/ngx_kqueue_module.c	/^ngx_kqueue_create_conf(ngx_cycle_t *cycle)$/;"	f	file:
+ngx_kqueue_del_event	modules/ngx_kqueue_module.c	/^ngx_kqueue_del_event(ngx_event_t *ev, ngx_int_t event, ngx_uint_t flags)$/;"	f	file:
+ngx_kqueue_done	modules/ngx_kqueue_module.c	/^ngx_kqueue_done(ngx_cycle_t *cycle)$/;"	f	file:
+ngx_kqueue_dump_event	modules/ngx_kqueue_module.c	/^ngx_kqueue_dump_event(ngx_log_t *log, struct kevent *kev)$/;"	f	file:
+ngx_kqueue_init	modules/ngx_kqueue_module.c	/^ngx_kqueue_init(ngx_cycle_t *cycle, ngx_msec_t timer)$/;"	f	file:
+ngx_kqueue_init_conf	modules/ngx_kqueue_module.c	/^ngx_kqueue_init_conf(ngx_cycle_t *cycle, void *conf)$/;"	f	file:
+ngx_kqueue_module	modules/ngx_kqueue_module.c	/^ngx_module_t  ngx_kqueue_module = {$/;"	v
+ngx_kqueue_module_ctx	modules/ngx_kqueue_module.c	/^ngx_event_module_t  ngx_kqueue_module_ctx = {$/;"	v
+ngx_kqueue_process_changes	modules/ngx_kqueue_module.c	/^ngx_kqueue_process_changes(ngx_cycle_t *cycle, ngx_uint_t try)$/;"	f	file:
+ngx_kqueue_process_events	modules/ngx_kqueue_module.c	/^ngx_kqueue_process_events(ngx_cycle_t *cycle, ngx_msec_t timer,$/;"	f	file:
+ngx_kqueue_set_event	modules/ngx_kqueue_module.c	/^ngx_kqueue_set_event(ngx_event_t *ev, ngx_int_t filter, ngx_uint_t flags)$/;"	f	file:
+ngx_linux_rtsig_max	modules/ngx_rtsig_module.c	/^int ngx_linux_rtsig_max;$/;"	v
+ngx_locked_post_event	ngx_event_posted.h	22;"	d
+ngx_openssl_commands	ngx_event_openssl.c	/^static ngx_command_t  ngx_openssl_commands[] = {$/;"	v	file:
+ngx_openssl_conf_t	ngx_event_openssl.c	/^} ngx_openssl_conf_t;$/;"	t	typeref:struct:__anon2	file:
+ngx_openssl_create_conf	ngx_event_openssl.c	/^ngx_openssl_create_conf(ngx_cycle_t *cycle)$/;"	f	file:
+ngx_openssl_engine	ngx_event_openssl.c	/^ngx_openssl_engine(ngx_conf_t *cf, ngx_command_t *cmd, void *conf)$/;"	f	file:
+ngx_openssl_exit	ngx_event_openssl.c	/^ngx_openssl_exit(ngx_cycle_t *cycle)$/;"	f	file:
+ngx_openssl_module	ngx_event_openssl.c	/^ngx_module_t  ngx_openssl_module = {$/;"	v
+ngx_openssl_module_ctx	ngx_event_openssl.c	/^static ngx_core_module_t  ngx_openssl_module_ctx = {$/;"	v	file:
+ngx_os_aio	modules/ngx_aio_module.c	/^ngx_os_io_t ngx_os_aio = {$/;"	v
+ngx_overflow_threshold_bounds	modules/ngx_rtsig_module.c	/^static ngx_conf_num_bounds_t  ngx_overflow_threshold_bounds = {$/;"	v	file:
+ngx_peer_connection_s	ngx_event_connect.h	/^struct ngx_peer_connection_s {$/;"	s
+ngx_peer_connection_t	ngx_event_connect.h	/^typedef struct ngx_peer_connection_s  ngx_peer_connection_t;$/;"	t	typeref:struct:ngx_peer_connection_s
+ngx_poll_add_event	modules/ngx_poll_module.c	/^ngx_poll_add_event(ngx_event_t *ev, ngx_int_t event, ngx_uint_t flags)$/;"	f	file:
+ngx_poll_del_event	modules/ngx_poll_module.c	/^ngx_poll_del_event(ngx_event_t *ev, ngx_int_t event, ngx_uint_t flags)$/;"	f	file:
+ngx_poll_done	modules/ngx_poll_module.c	/^ngx_poll_done(ngx_cycle_t *cycle)$/;"	f	file:
+ngx_poll_init	modules/ngx_poll_module.c	/^ngx_poll_init(ngx_cycle_t *cycle, ngx_msec_t timer)$/;"	f	file:
+ngx_poll_init_conf	modules/ngx_poll_module.c	/^ngx_poll_init_conf(ngx_cycle_t *cycle, void *conf)$/;"	f	file:
+ngx_poll_module	modules/ngx_poll_module.c	/^ngx_module_t  ngx_poll_module = {$/;"	v
+ngx_poll_module_ctx	modules/ngx_poll_module.c	/^ngx_event_module_t  ngx_poll_module_ctx = {$/;"	v
+ngx_poll_process_events	modules/ngx_poll_module.c	/^ngx_poll_process_events(ngx_cycle_t *cycle, ngx_msec_t timer, ngx_uint_t flags)$/;"	f	file:
+ngx_post_event	ngx_event_posted.h	41;"	d
+ngx_posted_accept_events	ngx_event_posted.c	/^ngx_thread_volatile ngx_event_t  *ngx_posted_accept_events;$/;"	v
+ngx_posted_events	ngx_event_posted.c	/^ngx_thread_volatile ngx_event_t  *ngx_posted_events;$/;"	v
+ngx_posted_events_mutex	ngx_event_posted.c	/^ngx_mutex_t                      *ngx_posted_events_mutex;$/;"	v
+ngx_process_changes	ngx_event.h	442;"	d
+ngx_process_events	ngx_event.h	443;"	d
+ngx_process_events_and_timers	ngx_event.c	/^ngx_process_events_and_timers(ngx_cycle_t *cycle)$/;"	f
+ngx_recv	ngx_event.h	457;"	d
+ngx_recv_chain	ngx_event.h	458;"	d
+ngx_rtsig_add_connection	modules/ngx_rtsig_module.c	/^ngx_rtsig_add_connection(ngx_connection_t *c)$/;"	f	file:
+ngx_rtsig_commands	modules/ngx_rtsig_module.c	/^static ngx_command_t  ngx_rtsig_commands[] = {$/;"	v	file:
+ngx_rtsig_conf_t	modules/ngx_rtsig_module.c	/^} ngx_rtsig_conf_t;$/;"	t	typeref:struct:__anon7	file:
+ngx_rtsig_create_conf	modules/ngx_rtsig_module.c	/^ngx_rtsig_create_conf(ngx_cycle_t *cycle)$/;"	f	file:
+ngx_rtsig_del_connection	modules/ngx_rtsig_module.c	/^ngx_rtsig_del_connection(ngx_connection_t *c, ngx_uint_t flags)$/;"	f	file:
+ngx_rtsig_done	modules/ngx_rtsig_module.c	/^ngx_rtsig_done(ngx_cycle_t *cycle)$/;"	f	file:
+ngx_rtsig_init	modules/ngx_rtsig_module.c	/^ngx_rtsig_init(ngx_cycle_t *cycle, ngx_msec_t timer)$/;"	f	file:
+ngx_rtsig_init_conf	modules/ngx_rtsig_module.c	/^ngx_rtsig_init_conf(ngx_cycle_t *cycle, void *conf)$/;"	f	file:
+ngx_rtsig_module	modules/ngx_rtsig_module.c	/^ngx_module_t  ngx_rtsig_module = {$/;"	v
+ngx_rtsig_module_ctx	modules/ngx_rtsig_module.c	/^ngx_event_module_t  ngx_rtsig_module_ctx = {$/;"	v
+ngx_rtsig_process_events	modules/ngx_rtsig_module.c	/^ngx_rtsig_process_events(ngx_cycle_t *cycle, ngx_msec_t timer, ngx_uint_t flags)$/;"	f	file:
+ngx_rtsig_process_overflow	modules/ngx_rtsig_module.c	/^ngx_rtsig_process_overflow(ngx_cycle_t *cycle, ngx_msec_t timer,$/;"	f	file:
+ngx_select_add_event	modules/ngx_select_module.c	/^ngx_select_add_event(ngx_event_t *ev, ngx_int_t event, ngx_uint_t flags)$/;"	f	file:
+ngx_select_add_event	modules/ngx_win32_select_module.c	/^ngx_select_add_event(ngx_event_t *ev, ngx_int_t event, ngx_uint_t flags)$/;"	f	file:
+ngx_select_del_event	modules/ngx_select_module.c	/^ngx_select_del_event(ngx_event_t *ev, ngx_int_t event, ngx_uint_t flags)$/;"	f	file:
+ngx_select_del_event	modules/ngx_win32_select_module.c	/^ngx_select_del_event(ngx_event_t *ev, ngx_int_t event, ngx_uint_t flags)$/;"	f	file:
+ngx_select_done	modules/ngx_select_module.c	/^ngx_select_done(ngx_cycle_t *cycle)$/;"	f	file:
+ngx_select_done	modules/ngx_win32_select_module.c	/^ngx_select_done(ngx_cycle_t *cycle)$/;"	f	file:
+ngx_select_init	modules/ngx_select_module.c	/^ngx_select_init(ngx_cycle_t *cycle, ngx_msec_t timer)$/;"	f	file:
+ngx_select_init	modules/ngx_win32_select_module.c	/^ngx_select_init(ngx_cycle_t *cycle, ngx_msec_t timer)$/;"	f	file:
+ngx_select_init_conf	modules/ngx_select_module.c	/^ngx_select_init_conf(ngx_cycle_t *cycle, void *conf)$/;"	f	file:
+ngx_select_init_conf	modules/ngx_win32_select_module.c	/^ngx_select_init_conf(ngx_cycle_t *cycle, void *conf)$/;"	f	file:
+ngx_select_module	modules/ngx_select_module.c	/^ngx_module_t  ngx_select_module = {$/;"	v
+ngx_select_module	modules/ngx_win32_select_module.c	/^ngx_module_t  ngx_select_module = {$/;"	v
+ngx_select_module_ctx	modules/ngx_select_module.c	/^ngx_event_module_t  ngx_select_module_ctx = {$/;"	v
+ngx_select_module_ctx	modules/ngx_win32_select_module.c	/^ngx_event_module_t  ngx_select_module_ctx = {$/;"	v
+ngx_select_process_events	modules/ngx_select_module.c	/^ngx_select_process_events(ngx_cycle_t *cycle, ngx_msec_t timer,$/;"	f	file:
+ngx_select_process_events	modules/ngx_win32_select_module.c	/^ngx_select_process_events(ngx_cycle_t *cycle, ngx_msec_t timer,$/;"	f	file:
+ngx_select_repair_fd_sets	modules/ngx_select_module.c	/^ngx_select_repair_fd_sets(ngx_cycle_t *cycle)$/;"	f	file:
+ngx_select_repair_fd_sets	modules/ngx_win32_select_module.c	/^ngx_select_repair_fd_sets(ngx_cycle_t *cycle)$/;"	f	file:
+ngx_send	ngx_event.h	460;"	d
+ngx_send_chain	ngx_event.h	461;"	d
+ngx_send_lowat	ngx_event.c	/^ngx_send_lowat(ngx_connection_t *c, size_t lowat)$/;"	f
+ngx_ssl_certificate	ngx_event_openssl.c	/^ngx_ssl_certificate(ngx_conf_t *cf, ngx_ssl_t *ssl, ngx_str_t *cert,$/;"	f
+ngx_ssl_cleanup_ctx	ngx_event_openssl.c	/^ngx_ssl_cleanup_ctx(void *data)$/;"	f
+ngx_ssl_clear_error	ngx_event_openssl.c	/^ngx_ssl_clear_error(ngx_log_t *log)$/;"	f	file:
+ngx_ssl_client_certificate	ngx_event_openssl.c	/^ngx_ssl_client_certificate(ngx_conf_t *cf, ngx_ssl_t *ssl, ngx_str_t *cert,$/;"	f
+ngx_ssl_conn_t	ngx_event_openssl.h	25;"	d
+ngx_ssl_connection_error	ngx_event_openssl.c	/^ngx_ssl_connection_error(ngx_connection_t *c, int sslerr, ngx_err_t err,$/;"	f	file:
+ngx_ssl_connection_index	ngx_event_openssl.c	/^int  ngx_ssl_connection_index;$/;"	v
+ngx_ssl_connection_t	ngx_event_openssl.h	/^} ngx_ssl_connection_t;$/;"	t	typeref:struct:__anon15
+ngx_ssl_create	ngx_event_openssl.c	/^ngx_ssl_create(ngx_ssl_t *ssl, ngx_uint_t protocols, void *data)$/;"	f
+ngx_ssl_create_connection	ngx_event_openssl.c	/^ngx_ssl_create_connection(ngx_ssl_t *ssl, ngx_connection_t *c, ngx_uint_t flags)$/;"	f
+ngx_ssl_crl	ngx_event_openssl.c	/^ngx_ssl_crl(ngx_conf_t *cf, ngx_ssl_t *ssl, ngx_str_t *crl)$/;"	f
+ngx_ssl_dhparam	ngx_event_openssl.c	/^ngx_ssl_dhparam(ngx_conf_t *cf, ngx_ssl_t *ssl, ngx_str_t *file)$/;"	f
+ngx_ssl_ecdh_curve	ngx_event_openssl.c	/^ngx_ssl_ecdh_curve(ngx_conf_t *cf, ngx_ssl_t *ssl, ngx_str_t *name)$/;"	f
+ngx_ssl_error	ngx_event_openssl.c	/^ngx_ssl_error(ngx_uint_t level, ngx_log_t *log, ngx_err_t err, char *fmt, ...)$/;"	f
+ngx_ssl_expire_sessions	ngx_event_openssl.c	/^ngx_ssl_expire_sessions(ngx_ssl_session_cache_t *cache,$/;"	f	file:
+ngx_ssl_free_buffer	ngx_event_openssl.c	/^ngx_ssl_free_buffer(ngx_connection_t *c)$/;"	f
+ngx_ssl_free_session	ngx_event_openssl.h	117;"	d
+ngx_ssl_get_cached_session	ngx_event_openssl.c	/^ngx_ssl_get_cached_session(ngx_ssl_conn_t *ssl_conn, u_char *id, int len,$/;"	f	file:
+ngx_ssl_get_certificate	ngx_event_openssl.c	/^ngx_ssl_get_certificate(ngx_connection_t *c, ngx_pool_t *pool, ngx_str_t *s)$/;"	f
+ngx_ssl_get_cipher_name	ngx_event_openssl.c	/^ngx_ssl_get_cipher_name(ngx_connection_t *c, ngx_pool_t *pool, ngx_str_t *s)$/;"	f
+ngx_ssl_get_client_verify	ngx_event_openssl.c	/^ngx_ssl_get_client_verify(ngx_connection_t *c, ngx_pool_t *pool, ngx_str_t *s)$/;"	f
+ngx_ssl_get_connection	ngx_event_openssl.h	118;"	d
+ngx_ssl_get_issuer_dn	ngx_event_openssl.c	/^ngx_ssl_get_issuer_dn(ngx_connection_t *c, ngx_pool_t *pool, ngx_str_t *s)$/;"	f
+ngx_ssl_get_protocol	ngx_event_openssl.c	/^ngx_ssl_get_protocol(ngx_connection_t *c, ngx_pool_t *pool, ngx_str_t *s)$/;"	f
+ngx_ssl_get_raw_certificate	ngx_event_openssl.c	/^ngx_ssl_get_raw_certificate(ngx_connection_t *c, ngx_pool_t *pool, ngx_str_t *s)$/;"	f
+ngx_ssl_get_serial_number	ngx_event_openssl.c	/^ngx_ssl_get_serial_number(ngx_connection_t *c, ngx_pool_t *pool, ngx_str_t *s)$/;"	f
+ngx_ssl_get_server_conf	ngx_event_openssl.h	120;"	d
+ngx_ssl_get_session	ngx_event_openssl.h	116;"	d
+ngx_ssl_get_session_id	ngx_event_openssl.c	/^ngx_ssl_get_session_id(ngx_connection_t *c, ngx_pool_t *pool, ngx_str_t *s)$/;"	f
+ngx_ssl_get_subject_dn	ngx_event_openssl.c	/^ngx_ssl_get_subject_dn(ngx_connection_t *c, ngx_pool_t *pool, ngx_str_t *s)$/;"	f
+ngx_ssl_handle_recv	ngx_event_openssl.c	/^ngx_ssl_handle_recv(ngx_connection_t *c, int n)$/;"	f	file:
+ngx_ssl_handshake	ngx_event_openssl.c	/^ngx_ssl_handshake(ngx_connection_t *c)$/;"	f
+ngx_ssl_handshake_handler	ngx_event_openssl.c	/^ngx_ssl_handshake_handler(ngx_event_t *ev)$/;"	f	file:
+ngx_ssl_info_callback	ngx_event_openssl.c	/^ngx_ssl_info_callback(const ngx_ssl_conn_t *ssl_conn, int where, int ret)$/;"	f	file:
+ngx_ssl_init	ngx_event_openssl.c	/^ngx_ssl_init(ngx_log_t *log)$/;"	f
+ngx_ssl_new_session	ngx_event_openssl.c	/^ngx_ssl_new_session(ngx_ssl_conn_t *ssl_conn, ngx_ssl_session_t *sess)$/;"	f	file:
+ngx_ssl_read_handler	ngx_event_openssl.c	/^ngx_ssl_read_handler(ngx_event_t *rev)$/;"	f	file:
+ngx_ssl_recv	ngx_event_openssl.c	/^ngx_ssl_recv(ngx_connection_t *c, u_char *buf, size_t size)$/;"	f
+ngx_ssl_recv_chain	ngx_event_openssl.c	/^ngx_ssl_recv_chain(ngx_connection_t *c, ngx_chain_t *cl)$/;"	f
+ngx_ssl_remove_cached_session	ngx_event_openssl.c	/^ngx_ssl_remove_cached_session(SSL_CTX *ssl, ngx_ssl_session_t *sess)$/;"	f
+ngx_ssl_remove_session	ngx_event_openssl.c	/^ngx_ssl_remove_session(SSL_CTX *ssl, ngx_ssl_session_t *sess)$/;"	f	file:
+ngx_ssl_rsa512_key_callback	ngx_event_openssl.c	/^ngx_ssl_rsa512_key_callback(SSL *ssl, int is_export, int key_length)$/;"	f
+ngx_ssl_send_chain	ngx_event_openssl.c	/^ngx_ssl_send_chain(ngx_connection_t *c, ngx_chain_t *in, off_t limit)$/;"	f
+ngx_ssl_server_conf_index	ngx_event_openssl.c	/^int  ngx_ssl_server_conf_index;$/;"	v
+ngx_ssl_sess_id_s	ngx_event_openssl.h	/^struct ngx_ssl_sess_id_s {$/;"	s
+ngx_ssl_sess_id_t	ngx_event_openssl.h	/^typedef struct ngx_ssl_sess_id_s  ngx_ssl_sess_id_t;$/;"	t	typeref:struct:ngx_ssl_sess_id_s
+ngx_ssl_session_cache	ngx_event_openssl.c	/^ngx_ssl_session_cache(ngx_ssl_t *ssl, ngx_str_t *sess_ctx,$/;"	f
+ngx_ssl_session_cache_index	ngx_event_openssl.c	/^int  ngx_ssl_session_cache_index;$/;"	v
+ngx_ssl_session_cache_init	ngx_event_openssl.c	/^ngx_ssl_session_cache_init(ngx_shm_zone_t *shm_zone, void *data)$/;"	f
+ngx_ssl_session_cache_t	ngx_event_openssl.h	/^} ngx_ssl_session_cache_t;$/;"	t	typeref:struct:__anon16
+ngx_ssl_session_rbtree_insert_value	ngx_event_openssl.c	/^ngx_ssl_session_rbtree_insert_value(ngx_rbtree_node_t *temp,$/;"	f	file:
+ngx_ssl_session_t	ngx_event_openssl.h	24;"	d
+ngx_ssl_set_session	ngx_event_openssl.c	/^ngx_ssl_set_session(ngx_connection_t *c, ngx_ssl_session_t *session)$/;"	f
+ngx_ssl_shutdown	ngx_event_openssl.c	/^ngx_ssl_shutdown(ngx_connection_t *c)$/;"	f
+ngx_ssl_shutdown_handler	ngx_event_openssl.c	/^ngx_ssl_shutdown_handler(ngx_event_t *ev)$/;"	f	file:
+ngx_ssl_t	ngx_event_openssl.h	/^} ngx_ssl_t;$/;"	t	typeref:struct:__anon14
+ngx_ssl_verify_error_optional	ngx_event_openssl.h	123;"	d
+ngx_ssl_write	ngx_event_openssl.c	/^ngx_ssl_write(ngx_connection_t *c, u_char *data, size_t size)$/;"	f
+ngx_ssl_write_handler	ngx_event_openssl.c	/^ngx_ssl_write_handler(ngx_event_t *wev)$/;"	f	file:
+ngx_stat_accepted	ngx_event.c	/^ngx_atomic_t  *ngx_stat_accepted = &ngx_stat_accepted0;$/;"	v
+ngx_stat_accepted0	ngx_event.c	/^ngx_atomic_t   ngx_stat_accepted0;$/;"	v
+ngx_stat_active	ngx_event.c	/^ngx_atomic_t  *ngx_stat_active = &ngx_stat_active0;$/;"	v
+ngx_stat_active0	ngx_event.c	/^ngx_atomic_t   ngx_stat_active0;$/;"	v
+ngx_stat_handled	ngx_event.c	/^ngx_atomic_t  *ngx_stat_handled = &ngx_stat_handled0;$/;"	v
+ngx_stat_handled0	ngx_event.c	/^ngx_atomic_t   ngx_stat_handled0;$/;"	v
+ngx_stat_reading	ngx_event.c	/^ngx_atomic_t  *ngx_stat_reading = &ngx_stat_reading0;$/;"	v
+ngx_stat_reading0	ngx_event.c	/^ngx_atomic_t   ngx_stat_reading0;$/;"	v
+ngx_stat_requests	ngx_event.c	/^ngx_atomic_t  *ngx_stat_requests = &ngx_stat_requests0;$/;"	v
+ngx_stat_requests0	ngx_event.c	/^ngx_atomic_t   ngx_stat_requests0;$/;"	v
+ngx_stat_writing	ngx_event.c	/^ngx_atomic_t  *ngx_stat_writing = &ngx_stat_writing0;$/;"	v
+ngx_stat_writing0	ngx_event.c	/^ngx_atomic_t   ngx_stat_writing0;$/;"	v
+ngx_timer_resolution	ngx_event.c	/^static ngx_uint_t     ngx_timer_resolution;$/;"	v	file:
+ngx_timer_signal_handler	ngx_event.c	/^ngx_timer_signal_handler(int signo)$/;"	f	file:
+ngx_trylock_accept_mutex	ngx_event_accept.c	/^ngx_trylock_accept_mutex(ngx_cycle_t *cycle)$/;"	f
+ngx_udp_recv	ngx_event.h	459;"	d
+ngx_use_accept_mutex	ngx_event.c	/^ngx_uint_t            ngx_use_accept_mutex;$/;"	v
+ngx_wakeup_worker_thread	ngx_event_posted.c	/^ngx_wakeup_worker_thread(ngx_cycle_t *cycle)$/;"	f
+no_send_shutdown	ngx_event_openssl.h	/^    unsigned                    no_send_shutdown:1;$/;"	m	struct:__anon15
+no_wait_shutdown	ngx_event_openssl.h	/^    unsigned                    no_wait_shutdown:1;$/;"	m	struct:__anon15
+node	ngx_event_openssl.h	/^    ngx_rbtree_node_t           node;$/;"	m	struct:ngx_ssl_sess_id_s
+num	ngx_event_pipe.h	/^    \/* STUB *\/ int     num;$/;"	m	struct:ngx_event_pipe_s
+obj	modules/ngx_epoll_module.c	/^    uint64_t  obj;   \/* what iocb this event came from *\/$/;"	m	struct:io_event	file:
+oneshot	ngx_event.h	/^    unsigned         oneshot:1;$/;"	m	struct:ngx_event_s
+out	ngx_event_pipe.h	/^    ngx_chain_t       *out;$/;"	m	struct:ngx_event_pipe_s
+output_ctx	ngx_event_pipe.h	/^    void                             *output_ctx;$/;"	m	struct:ngx_event_pipe_s
+output_filter	ngx_event_pipe.h	/^    ngx_event_pipe_output_filter_pt   output_filter;$/;"	m	struct:ngx_event_pipe_s
+overflow	modules/ngx_rtsig_module.c	/^static ngx_uint_t      overflow, overflow_current;$/;"	v	file:
+overflow_current	modules/ngx_rtsig_module.c	/^static ngx_uint_t      overflow, overflow_current;$/;"	v	file:
+overflow_events	modules/ngx_rtsig_module.c	/^    ngx_uint_t  overflow_events;$/;"	m	struct:__anon7	file:
+overflow_list	modules/ngx_rtsig_module.c	/^static struct pollfd  *overflow_list;$/;"	v	typeref:struct:pollfd	file:
+overflow_test	modules/ngx_rtsig_module.c	/^    ngx_uint_t  overflow_test;$/;"	m	struct:__anon7	file:
+overflow_threshold	modules/ngx_rtsig_module.c	/^    ngx_uint_t  overflow_threshold;$/;"	m	struct:__anon7	file:
+ovlp	ngx_event.h	/^    WSAOVERLAPPED    ovlp;$/;"	m	struct:__anon9
+ovlp	ngx_event.h	/^    ngx_event_ovlp_t ovlp;$/;"	m	struct:ngx_event_s
+own_lock	ngx_event.h	/^    ngx_atomic_t    *own_lock;$/;"	m	struct:ngx_event_s
+pending_eof	ngx_event.h	/^    unsigned         pending_eof:1;$/;"	m	struct:ngx_event_s
+poll_name	modules/ngx_poll_module.c	/^static ngx_str_t    poll_name = ngx_string("poll");$/;"	v	file:
+pool	ngx_event_pipe.h	/^    ngx_pool_t        *pool;$/;"	m	struct:ngx_event_pipe_s
+port_associate	modules/ngx_eventport_module.c	/^int port_associate(int port, int source, uintptr_t object, int events,$/;"	f
+port_create	modules/ngx_eventport_module.c	/^int port_create(void)$/;"	f
+port_dissociate	modules/ngx_eventport_module.c	/^int port_dissociate(int port, int source, uintptr_t object)$/;"	f
+port_event_t	modules/ngx_eventport_module.c	/^} port_event_t;$/;"	t	typeref:struct:__anon4	file:
+port_getn	modules/ngx_eventport_module.c	/^int port_getn(int port, port_event_t list[], uint_t max, uint_t *nget,$/;"	f
+port_notify	modules/ngx_eventport_module.c	/^typedef struct  port_notify {$/;"	s	file:
+port_notify_t	modules/ngx_eventport_module.c	/^} port_notify_t;$/;"	t	typeref:struct:port_notify	file:
+portev_events	modules/ngx_eventport_module.c	/^    int         portev_events;  \/* event data is source specific *\/$/;"	m	struct:__anon4	file:
+portev_object	modules/ngx_eventport_module.c	/^    uintptr_t   portev_object;  \/* source specific object *\/$/;"	m	struct:__anon4	file:
+portev_pad	modules/ngx_eventport_module.c	/^    ushort_t    portev_pad;     \/* port internal use *\/$/;"	m	struct:__anon4	file:
+portev_source	modules/ngx_eventport_module.c	/^    ushort_t    portev_source;  \/* event source *\/$/;"	m	struct:__anon4	file:
+portev_user	modules/ngx_eventport_module.c	/^    void       *portev_user;    \/* user cookie *\/$/;"	m	struct:__anon4	file:
+portnfy_port	modules/ngx_eventport_module.c	/^    int         portnfy_port;   \/* bind request(s) to port *\/$/;"	m	struct:port_notify	file:
+portnfy_user	modules/ngx_eventport_module.c	/^    void       *portnfy_user;   \/* user defined *\/$/;"	m	struct:port_notify	file:
+posted_available	ngx_event.h	/^    int              posted_available;$/;"	m	struct:ngx_event_s
+posted_available	ngx_event.h	/^    unsigned         posted_available:1;$/;"	m	struct:ngx_event_s
+posted_eof	ngx_event.h	/^    unsigned         posted_eof:1;$/;"	m	struct:ngx_event_s
+posted_errno	ngx_event.h	/^    int              posted_errno;$/;"	m	struct:ngx_event_s
+posted_ready	ngx_event.h	/^    unsigned         posted_ready:1;$/;"	m	struct:ngx_event_s
+posted_timedout	ngx_event.h	/^    unsigned         posted_timedout:1;$/;"	m	struct:ngx_event_s
+preread_bufs	ngx_event_pipe.h	/^    ngx_chain_t       *preread_bufs;$/;"	m	struct:ngx_event_pipe_s
+preread_size	ngx_event_pipe.h	/^    size_t             preread_size;$/;"	m	struct:ngx_event_pipe_s
+prev	ngx_event.h	/^    ngx_event_t    **prev;$/;"	m	struct:ngx_event_s
+process_changes	ngx_event.h	/^    ngx_int_t  (*process_changes)(ngx_cycle_t *cycle, ngx_uint_t nowait);$/;"	m	struct:__anon11
+process_events	ngx_event.h	/^    ngx_int_t  (*process_events)(ngx_cycle_t *cycle, ngx_msec_t timer,$/;"	m	struct:__anon11
+ptr	modules/ngx_epoll_module.c	/^    void         *ptr;$/;"	m	union:epoll_data	file:
+queue	ngx_event_openssl.h	/^    ngx_queue_t                 queue;$/;"	m	struct:ngx_ssl_sess_id_s
+rcvbuf	ngx_event_connect.h	/^    int                              rcvbuf;$/;"	m	struct:ngx_peer_connection_s
+read	ngx_event_pipe.h	/^    unsigned           read:1;$/;"	m	struct:ngx_event_pipe_s
+read_discarded	ngx_event.h	/^    unsigned         read_discarded:1;$/;"	m	struct:ngx_event_s
+read_length	ngx_event_pipe.h	/^    off_t              read_length;$/;"	m	struct:ngx_event_pipe_s
+read_timeout	ngx_event_pipe.h	/^    ngx_msec_t         read_timeout;$/;"	m	struct:ngx_event_pipe_s
+ready	ngx_event.h	/^    unsigned         ready:1;$/;"	m	struct:ngx_event_s
+renegotiation	ngx_event_openssl.h	/^    unsigned                    renegotiation:1;$/;"	m	struct:__anon15
+res	modules/ngx_epoll_module.c	/^    int64_t   res;   \/* result code for this event *\/$/;"	m	struct:io_event	file:
+res	ngx_event.h	/^    int64_t                    res;$/;"	m	struct:ngx_event_aio_s
+res2	modules/ngx_epoll_module.c	/^    int64_t   res2;  \/* secondary result *\/$/;"	m	struct:io_event	file:
+resolver	ngx_event.h	/^    unsigned         resolver:1;$/;"	m	struct:ngx_event_s
+rtsig_name	modules/ngx_rtsig_module.c	/^static ngx_str_t      rtsig_name = ngx_string("rtsig");$/;"	v	file:
+save_session	ngx_event_connect.h	/^    ngx_event_save_peer_session_pt   save_session;$/;"	m	struct:ngx_peer_connection_s
+saved_read_handler	ngx_event_openssl.h	/^    ngx_event_handler_pt        saved_read_handler;$/;"	m	struct:__anon15
+saved_write_handler	ngx_event_openssl.h	/^    ngx_event_handler_pt        saved_write_handler;$/;"	m	struct:__anon15
+select_name	modules/ngx_select_module.c	/^static ngx_str_t    select_name = ngx_string("select");$/;"	v	file:
+select_name	modules/ngx_win32_select_module.c	/^static ngx_str_t    select_name = ngx_string("select");$/;"	v	file:
+send_lowat	ngx_event_pipe.h	/^    ssize_t            send_lowat;$/;"	m	struct:ngx_event_pipe_s
+send_timeout	ngx_event_pipe.h	/^    ngx_msec_t         send_timeout;$/;"	m	struct:ngx_event_pipe_s
+sentinel	ngx_event_openssl.h	/^    ngx_rbtree_node_t           sentinel;$/;"	m	struct:__anon16
+sess_id	ngx_event_openssl.h	/^    u_char                      sess_id[32];$/;"	m	struct:ngx_ssl_sess_id_s
+session	ngx_event_openssl.h	/^    u_char                     *session;$/;"	m	struct:ngx_ssl_sess_id_s
+session_rbtree	ngx_event_openssl.h	/^    ngx_rbtree_t                session_rbtree;$/;"	m	struct:__anon16
+set	modules/ngx_rtsig_module.c	/^static sigset_t        set;$/;"	v	file:
+set_session	ngx_event_connect.h	/^    ngx_event_set_peer_session_pt    set_session;$/;"	m	struct:ngx_peer_connection_s
+si_fd	modules/ngx_rtsig_module.c	18;"	d	file:
+si_fd	modules/ngx_rtsig_module.c	23;"	d	file:
+si_fd	modules/ngx_rtsig_module.c	26;"	d	file:
+signo	modules/ngx_rtsig_module.c	/^    ngx_uint_t  signo;$/;"	m	struct:__anon7	file:
+sigtimedwait	modules/ngx_rtsig_module.c	/^int sigtimedwait(const sigset_t *set, siginfo_t *info,$/;"	f
+single_buf	ngx_event_pipe.h	/^    unsigned           single_buf:1;$/;"	m	struct:ngx_event_pipe_s
+slot	ngx_event_busy_lock.h	/^    ngx_int_t                   slot;$/;"	m	struct:ngx_event_busy_lock_ctx_s
+sockaddr	ngx_event_connect.h	/^    struct sockaddr                 *sockaddr;$/;"	m	struct:ngx_peer_connection_s	typeref:struct:ngx_peer_connection_s::sockaddr
+socklen	ngx_event_connect.h	/^    socklen_t                        socklen;$/;"	m	struct:ngx_peer_connection_s
+stub	ngx_event_openssl.h	/^    void                       *stub;$/;"	m	struct:ngx_ssl_sess_id_s
+tag	ngx_event_pipe.h	/^    ngx_buf_tag_t      tag;$/;"	m	struct:ngx_event_pipe_s
+temp_file	ngx_event_pipe.h	/^    ngx_temp_file_t   *temp_file;$/;"	m	struct:ngx_event_pipe_s
+temp_file_write_size	ngx_event_pipe.h	/^    ssize_t            temp_file_write_size;$/;"	m	struct:ngx_event_pipe_s
+timedout	ngx_event.h	/^    unsigned         timedout:1;$/;"	m	struct:ngx_event_s
+timer	ngx_event.h	/^    ngx_rbtree_node_t   timer;$/;"	m	struct:ngx_event_s
+timer	ngx_event_busy_lock.h	/^    ngx_msec_t                  timer;$/;"	m	struct:ngx_event_busy_lock_ctx_s
+timer_create	modules/ngx_eventport_module.c	/^int timer_create(clockid_t clock_id, struct sigevent *evp, timer_t *timerid)$/;"	f
+timer_delete	modules/ngx_eventport_module.c	/^int timer_delete(timer_t timerid)$/;"	f
+timer_set	ngx_event.h	/^    unsigned         timer_set:1;$/;"	m	struct:ngx_event_s
+timer_settime	modules/ngx_eventport_module.c	/^int timer_settime(timer_t timerid, int flags, const struct itimerspec *value,$/;"	f
+timer_t	modules/ngx_eventport_module.c	/^typedef void *  timer_t;$/;"	t	file:
+tries	ngx_event_connect.h	/^    ngx_uint_t                       tries;$/;"	m	struct:ngx_peer_connection_s
+u32	modules/ngx_epoll_module.c	/^    uint32_t      u32;$/;"	m	union:epoll_data	file:
+u64	modules/ngx_epoll_module.c	/^    uint64_t      u64;$/;"	m	union:epoll_data	file:
+uint_t	modules/ngx_eventport_module.c	16;"	d	file:
+unexpected_eof	ngx_event.h	/^    unsigned         unexpected_eof:1;$/;"	m	struct:ngx_event_s
+upstream	ngx_event_pipe.h	/^    ngx_connection_t  *upstream;$/;"	m	struct:ngx_event_pipe_s
+upstream_blocked	ngx_event_pipe.h	/^    unsigned           upstream_blocked:1;$/;"	m	struct:ngx_event_pipe_s
+upstream_done	ngx_event_pipe.h	/^    unsigned           upstream_done:1;$/;"	m	struct:ngx_event_pipe_s
+upstream_eof	ngx_event_pipe.h	/^    unsigned           upstream_eof:1;$/;"	m	struct:ngx_event_pipe_s
+upstream_error	ngx_event_pipe.h	/^    unsigned           upstream_error:1;$/;"	m	struct:ngx_event_pipe_s
+use	ngx_event.h	/^    ngx_uint_t    use;$/;"	m	struct:__anon12
+ushort_t	modules/ngx_eventport_module.c	15;"	d	file:
+waiting	ngx_event_busy_lock.h	/^    ngx_uint_t                  waiting;$/;"	m	struct:__anon1
+waiting	ngx_event_busy_lock.h	/^    unsigned                    waiting:1;$/;"	m	struct:ngx_event_busy_lock_ctx_s
+work_read_fd_set	modules/ngx_select_module.c	/^static fd_set         work_read_fd_set;$/;"	v	file:
+work_read_fd_set	modules/ngx_win32_select_module.c	/^static fd_set         work_read_fd_set;$/;"	v	file:
+work_write_fd_set	modules/ngx_select_module.c	/^static fd_set         work_write_fd_set;$/;"	v	file:
+work_write_fd_set	modules/ngx_win32_select_module.c	/^static fd_set         work_write_fd_set;$/;"	v	file:
+write	ngx_event.h	/^    unsigned         write:1;$/;"	m	struct:ngx_event_s
